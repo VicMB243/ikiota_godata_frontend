@@ -97408,7 +97408,7 @@ var $async$xh=A.y(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:A.br("============respons "+a.eb().j(0))
 p=4
 A.br("============response---")
-m=A.fz("http://godatahub.achocd.com/clients/login")
+m=A.fz("https://godatahub.achocd.com/clients/login")
 h=t.N
 h=A.af(["Content-Type","application/json; charset=UTF-8"],h,h)
 s=7
@@ -97458,7 +97458,7 @@ DD(a){return this.aw7(a)},
 aw7(a){var s=0,r=A.C(t.Ti),q,p=2,o,n,m,l,k,j,i,h
 var $async$DD=A.y(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
-n=A.fz("http://godatahub.achocd.com/clients/register")
+n=A.fz("https://godatahub.achocd.com/clients/register")
 j=t.N
 j=A.af(["Content-Type","application/json; charset=UTF-8"],j,j)
 s=7
@@ -97492,7 +97492,7 @@ A.m8.prototype={
 yk(){var s=0,r=A.C(t.OS),q,p=2,o,n=this,m,l,k,j,i,h,g,f,e,d,c,b
 var $async$yk=A.y(function(a,a0){if(a===1){o=a0
 s=p}while(true)switch(s){case 0:p=4
-m=A.fz("http://godatahub.achocd.com/banks")
+m=A.fz("https://godatahub.achocd.com/banks")
 f=t.N
 s=7
 return A.M(A.b0R(m,A.af(["Content-Type","application/json; charset=UTF-8"],f,f)),$async$yk)
@@ -97554,7 +97554,7 @@ e=b1.p3.as
 e.toString
 J.m5(m,e)
 l=m
-k=A.fz("http://godatahub.achocd.com/companies/register")
+k=A.fz("https://godatahub.achocd.com/companies/register")
 j=A.aXq("POST",k)
 m=l,e=m.length,c=t.zb,b=t.bw,a=t.N,a0=c.i("ez<1>"),a1=0
 case 7:if(!(a1<m.length)){s=9
@@ -97636,7 +97636,7 @@ B.b.a9(h,new A.abI(m))
 h=a.p2
 h.toString
 B.b.a9(h,new A.abJ(m))
-l=A.fz("http://godatahub.achocd.com/companies/update/"+b)
+l=A.fz("https://godatahub.achocd.com/companies/update/"+b)
 k=A.aXq("PATCH",l)
 J.cL(m,new A.abK(k))
 k.x.n(0,"bodyData",B.y.by(a.fQ()))
@@ -97737,7 +97737,7 @@ p=s}return p}},
 yl(){var s=0,r=A.C(t._R),q,p=2,o,n=this,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1
 var $async$yl=A.y(function(b2,b3){if(b2===1){o=b3
 s=p}while(true)switch(s){case 0:p=4
-m=A.fz("http://godatahub.achocd.com/products")
+m=A.fz("https://godatahub.achocd.com/products")
 f=t.N
 s=7
 return A.M(A.b0R(m,A.af(["Content-Type","application/json; charset=UTF-8"],f,f)),$async$yl)
@@ -104324,7 +104324,7 @@ e=A.W(A.a([new A.p(B.Ml,A.a3(g,A.bX(A.u(d.d,g,B.aw,g,B.n.eg(B.p,12,B.G),g,g),g,g
 s=A.cx(6)
 r=this.c
 q=A.cx(6)
-p=A.a3(g,g,B.j,g,g,new A.aG(B.p,A.b74(g,new A.wi("http://godatahub.achocd.com/uploads/"+A.h(J.aA(B.b.gK(d.y.e),"name"))),g),g,g,g,g,g,B.a7),g,80,g,g,g,g,80)
+p=A.a3(g,g,B.j,g,g,new A.aG(B.p,A.b74(g,new A.wi("https://godatahub.achocd.com/uploads/"+A.h(J.aA(B.b.gK(d.y.e),"name"))),g),g,g,g,g,g,B.a7),g,80,g,g,g,g,80)
 o=A.U(g,g,20)
 n=A.u(d.c,g,B.aw,g,B.A.aI(r),g,g)
 m=t.n
