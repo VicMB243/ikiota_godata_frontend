@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 20, 2023 at 09:46 AM
+-- Generation Time: Oct 30, 2023 at 09:37 AM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -56,6 +56,7 @@ CREATE TABLE `banks` (
   `id` int(11) NOT NULL,
   `name` varchar(255) NOT NULL,
   `type` varchar(100) NOT NULL,
+  `creator` varchar(55) NOT NULL,
   `logo` text NOT NULL,
   `description` text NOT NULL,
   `status` varchar(100) NOT NULL,
@@ -66,39 +67,12 @@ CREATE TABLE `banks` (
 -- Dumping data for table `banks`
 --
 
-INSERT INTO `banks` (`id`, `name`, `type`, `logo`, `description`, `status`, `dateCreated`) VALUES
-(1, 'Equity BCDC', 'Banque', 'equity.png', '', 'Active', '2023-10-18 12:56:42'),
-(2, 'Rawbank', 'banque', 'rawbank.png', '', 'Valid', '2023-10-18 12:56:42'),
-(3, 'Smico', 'Société de Microfinance', 'smico.png', '', 'Valid', '2023-10-18 12:56:42'),
-(4, 'TMB', 'Banque', 'tmb.png', '', 'active', '2023-10-19 16:16:56');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `clients`
---
-
-CREATE TABLE `clients` (
-  `id` int(5) NOT NULL,
-  `name` varchar(50) DEFAULT NULL,
-  `email` varchar(50) NOT NULL,
-  `phone` varchar(100) DEFAULT NULL,
-  `profile` varchar(255) DEFAULT NULL,
-  `password` varchar(500) NOT NULL,
-  `company` varchar(500) DEFAULT NULL,
-  `location` varchar(500) DEFAULT NULL,
-  `status` varchar(100) NOT NULL,
-  `dateCreated` varchar(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `clients`
---
-
-INSERT INTO `clients` (`id`, `name`, `email`, `phone`, `profile`, `password`, `company`, `location`, `status`, `dateCreated`) VALUES
-(1, 'client1', 'vicbiloko@gmail.com', '07000000000', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', 'ikiota', 'Goma', 'active', '2021-08-14 13:02:48'),
-(2, 'client3', 'user441@gmail.com', '07000000000', '', '$2b$10$zWqtmt9p.6q9YNxkYBLXB.HX.3yH1aGLKV/GeN8V7A61LrVnz3hqK', 'Zero panne', 'Goma', 'active', '2021-08-20 09:05:50'),
-(56, NULL, 'vicbiloko2@gmail.com', '', '', '$2b$10$dc1J9PziXbt6NUbOezCtw.AKiOop587PaFXXkKdL4WbjiBASjInu2', NULL, NULL, 'active', '2023-08-28 22:45:44.119');
+INSERT INTO `banks` (`id`, `name`, `type`, `creator`, `logo`, `description`, `status`, `dateCreated`) VALUES
+(1, 'Equity BCDC', 'Banque', '', 'equity.png', '', 'Active', '2023-10-18 12:56:42'),
+(2, 'Rawbank', 'banque', '', 'rawbank.png', '', 'Valid', '2023-10-18 12:56:42'),
+(3, 'Smico', 'Société de Microfinance', '', 'smico.png', '', 'Valid', '2023-10-18 12:56:42'),
+(4, 'TMB', 'Banque', '', 'tmb.png', '', 'active', '2023-10-19 16:16:56'),
+(7, 'bank10', 'Banque', '75', 'favicon-250x250.png', '', 'active', '2023-10-28 12:41:10');
 
 -- --------------------------------------------------------
 
@@ -189,7 +163,7 @@ CREATE TABLE `products` (
   `valueMax` text NOT NULL,
   `maturity` varchar(55) NOT NULL,
   `warranty` varchar(55) NOT NULL,
-  `logo` text NOT NULL,
+  `logo` text DEFAULT NULL,
   `provider` varchar(55) NOT NULL,
   `cover` varchar(255) NOT NULL,
   `status` varchar(55) NOT NULL,
@@ -211,6 +185,57 @@ INSERT INTO `products` (`id`, `name`, `type`, `sector`, `valueMin`, `valueMax`, 
 (7, 'Bingwa', 'Micro Assurance', 'Fintech', '{\"value\": 1000,\"currency\": \"USD\"}', '{\"value\": 30000,\"currency\": \"USD\"}', '36 Mois', 'Requise', '\"rawbank.png\"', '2', 'FOGEC', 'valid', '', '2023-09-22 09:44:32'),
 (8, 'Bingwa', 'Micro Assurance', 'Agritech', '{\"value\": 1000,\"currency\": \"USD\"}', '{\"value\": 30000,\"currency\": \"USD\"}', '36 Mois', 'Requise', '\"rawbank.png\"', '2', 'FOGEC', 'valid', '', '2023-09-22 09:44:32');
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `users`
+--
+
+CREATE TABLE `users` (
+  `id` int(5) NOT NULL,
+  `name` varchar(50) DEFAULT NULL,
+  `email` varchar(50) NOT NULL,
+  `phone` varchar(100) DEFAULT NULL,
+  `profile` varchar(255) DEFAULT NULL,
+  `password` varchar(500) NOT NULL,
+  `company` varchar(500) DEFAULT NULL,
+  `type` varchar(255) DEFAULT NULL,
+  `location` varchar(500) DEFAULT NULL,
+  `status` varchar(100) NOT NULL,
+  `dateCreated` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`id`, `name`, `email`, `phone`, `profile`, `password`, `company`, `type`, `location`, `status`, `dateCreated`) VALUES
+(1, 'client1', 'vicbiloko@gmail.com', '07000000000', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', 'ikiota', '', 'Goma', 'active', '2021-08-14 13:02:48'),
+(2, 'client3', 'user441@gmail.com', '07000000000', '', '$2b$10$zWqtmt9p.6q9YNxkYBLXB.HX.3yH1aGLKV/GeN8V7A61LrVnz3hqK', 'Zero panne', '', 'Goma', 'active', '2021-08-20 09:05:50'),
+(56, NULL, 'vicbiloko2@gmail.com', '', '', '$2b$10$dc1J9PziXbt6NUbOezCtw.AKiOop587PaFXXkKdL4WbjiBASjInu2', NULL, '', NULL, 'active', '2023-08-28 22:45:44.119'),
+(57, '', 'user4@gmail.com', '', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', NULL, '', NULL, 'active', '2023-10-25 10:20:12.099'),
+(58, '', 'user3@gmail.com', '', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', NULL, '', NULL, 'active', '2023-10-25 10:46:20.070'),
+(59, '', 'user2@gmail.com', '', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', NULL, '', NULL, 'active', '2023-10-25 11:09:19.035'),
+(60, '', 'user1@gmail.com', '', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', NULL, '', NULL, 'active', '2023-10-25 11:21:47.033'),
+(61, '', 'user5@gmail.com', '', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', NULL, '', NULL, 'active', '2023-10-25 11:28:23.249'),
+(62, '', 'user6@gmail.com', '', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', NULL, '', NULL, 'active', '2023-10-25 11:30:41.517'),
+(63, '', 'user7@gmail.com', '', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', NULL, '', NULL, 'active', '2023-10-25 11:31:10.189'),
+(64, '', 'user8@gmail.com', '', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', NULL, '', NULL, 'active', '2023-10-25 11:58:14.797'),
+(65, '', 'user8@gmail.com', '', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', NULL, '', NULL, 'active', '2023-10-25 11:58:15.040'),
+(66, '', 'user9@gmail.com', '', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', NULL, '', NULL, 'active', '2023-10-25 11:58:41.516'),
+(67, '', 'user10@gmail.com', '', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', NULL, '', NULL, 'active', '2023-10-25 12:06:41.130'),
+(68, '', 'bank@gmail.com', '', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', NULL, '', NULL, 'active', '2023-10-27 22:55:06.621'),
+(69, '', 'bank1@gmail.com', '', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', NULL, '', NULL, 'active', '2023-10-27 22:58:59.754'),
+(70, '', 'bank4@gmail.com', '', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', NULL, NULL, NULL, 'active', '2023-10-27 23:08:07.085'),
+(71, '', 'bank5@gmail.com', '', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', NULL, 'Institution Financiere/ Banque', NULL, 'active', '2023-10-27 23:13:50.235'),
+(72, '', 'bank6@gmail.com', '', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', NULL, 'Institution Financiere/ Banque', NULL, 'active', '2023-10-27 23:24:18.977'),
+(73, '', 'bank8@gmail.com', '', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', NULL, 'Institution Financiere/ Banque', NULL, 'active', '2023-10-28 12:20:28.391'),
+(74, '', 'bank9@gmail.com', '', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', NULL, 'PME & Cooperative', NULL, 'active', '2023-10-28 12:31:20.032'),
+(75, '', 'bank10@gmail.com', '', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', NULL, 'Institution Financiere/ Banque', NULL, 'active', '2023-10-28 12:31:39.619'),
+(76, '', 'bank11@gmail.com', '', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', NULL, 'Institution Financiere/ Banque', NULL, 'active', '2023-10-28 12:42:40.209'),
+(77, '', 'user12@gmail.com', '', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', NULL, 'PME & Cooperative', NULL, 'active', '2023-10-28 20:48:10.226'),
+(78, '', 'bestbank@gmail.com', '', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', NULL, 'Institution Financiere/ Banque', NULL, 'active', '2023-10-30 09:42:38.667');
+
 --
 -- Indexes for dumped tables
 --
@@ -228,12 +253,6 @@ ALTER TABLE `banks`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `clients`
---
-ALTER TABLE `clients`
-  ADD PRIMARY KEY (`id`);
-
---
 -- Indexes for table `companies`
 --
 ALTER TABLE `companies`
@@ -243,6 +262,12 @@ ALTER TABLE `companies`
 -- Indexes for table `products`
 --
 ALTER TABLE `products`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `users`
+--
+ALTER TABLE `users`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -259,13 +284,7 @@ ALTER TABLE `admins`
 -- AUTO_INCREMENT for table `banks`
 --
 ALTER TABLE `banks`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
-
---
--- AUTO_INCREMENT for table `clients`
---
-ALTER TABLE `clients`
-  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=57;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `companies`
@@ -277,7 +296,13 @@ ALTER TABLE `companies`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=54;
+
+--
+-- AUTO_INCREMENT for table `users`
+--
+ALTER TABLE `users`
+  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=79;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
