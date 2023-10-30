@@ -96052,7 +96052,7 @@ var $async$xp=A.C(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:A.b8("============respons "+a.dG().j(0))
 p=4
 A.b8("============response---")
-m=A.f_("http://localhost:3000/admins/login")
+m=A.f_("https://godatahub.achocd.com/admins/login")
 h=t.N
 h=A.al(["Content-Type","application/json; charset=UTF-8"],h,h)
 s=7
@@ -96102,7 +96102,7 @@ DP(a){return this.avE(a)},
 avE(a){var s=0,r=A.G(t.Ti),q,p=2,o,n,m,l,k,j,i,h
 var $async$DP=A.C(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
-n=A.f_("http://localhost:3000/admins/register")
+n=A.f_("https://godatahub.achocd.com/admins/register")
 j=t.N
 j=A.al(["Content-Type","application/json; charset=UTF-8"],j,j)
 s=7
@@ -96142,7 +96142,7 @@ return s}},
 yq(){var s=0,r=A.G(t.OS),q,p=2,o,n=this,m,l,k,j,i,h,g,f,e,d,c,b
 var $async$yq=A.C(function(a,a0){if(a===1){o=a0
 s=p}while(true)switch(s){case 0:p=4
-m=A.f_("http://localhost:3000/banks")
+m=A.f_("https://godatahub.achocd.com/banks")
 f=t.N
 s=7
 return A.R(A.aSF(m,A.al(["Content-Type","application/json; charset=UTF-8"],f,f)),$async$yq)
@@ -96208,7 +96208,7 @@ e=b1.p3.as
 e.toString
 J.ul(m,e)
 l=m
-k=A.f_("http://localhost:3000/companies/register")
+k=A.f_("https://godatahub.achocd.com/companies/register")
 j=A.ajA("POST",k)
 m=l,e=m.length,c=t.zb,b=t.G5,a=t.N,a0=c.i("ey<1>"),a1=0
 case 7:if(!(a1<m.length)){s=9
@@ -96290,7 +96290,7 @@ B.b.ae(h,new A.aaQ(m))
 h=a.p2
 h.toString
 B.b.ae(h,new A.aaR(m))
-l=A.f_("http://localhost:3000/companies/update/"+b)
+l=A.f_("https://godatahub.achocd.com/companies/update/"+b)
 k=A.ajA("PATCH",l)
 J.cJ(m,new A.aaS(k))
 k.x.n(0,"bodyData",B.z.bz(a.fZ()))
@@ -96330,7 +96330,7 @@ return A.F($async$kL,r)},
 yr(){var s=0,r=A.G(t.MK),q,p=2,o,n=this,m,l,k,j,i,h,g,f,e,d,c,b
 var $async$yr=A.C(function(a,a0){if(a===1){o=a0
 s=p}while(true)switch(s){case 0:p=4
-m=A.f_("http://localhost:3000/companies")
+m=A.f_("https://godatahub.achocd.com/companies")
 f=t.N
 s=7
 return A.R(A.aSF(m,A.al(["Content-Type","application/json; charset=UTF-8"],f,f)),$async$yr)
@@ -96430,7 +96430,7 @@ anM(a){var s=0,r=A.G(t.vF),q,p=2,o,n=this,m,l,k,j,i,h,g,f,e,d
 var $async$vQ=A.C(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:e={}
 p=4
-m=A.f_("http://localhost:3000/products/add")
+m=A.f_("https://godatahub.achocd.com/products/add")
 l=A.ajA("POST",m)
 l.x.n(0,"bodyData",B.z.bz(a.dG()))
 s=7
@@ -96474,7 +96474,7 @@ var $async$t6=A.C(function(a7,a8){if(a7===1){o=a8
 s=p}while(true)switch(s){case 0:a3={}
 a4=null
 p=4
-m=A.f_("http://localhost:3000/products/update/"+A.h(a6.a))
+m=A.f_("https://godatahub.achocd.com/products/update/"+A.h(a6.a))
 l=A.ajA("PATCH",m)
 s=a4!=null?7:8
 break
@@ -96528,7 +96528,7 @@ return A.F($async$t6,r)},
 ql(){var s=0,r=A.G(t._R),q,p=2,o,n=this,m,l,k,j,i,h,g,f,e,d,c,b,a
 var $async$ql=A.C(function(a0,a1){if(a0===1){o=a1
 s=p}while(true)switch(s){case 0:p=4
-m=A.f_("http://localhost:3000/products")
+m=A.f_("https://godatahub.achocd.com/products")
 f=t.N
 s=7
 return A.R(A.aSF(m,A.al(["Content-Type","application/json; charset=UTF-8"],f,f)),$async$ql)
@@ -102471,21 +102471,21 @@ A.lu.prototype={
 a8(){var s=null
 return new A.a4e(new A.bo(s,t.am),new A.bo(s,t.sW),A.a7(s),A.a7(s),B.r)}}
 A.a4e.prototype={
-J(a){var s,r,q,p,o,n,m,l,k,j=this,i=null,h="enterEmail",g=t.l
-A.aF(a,i,g).toString
-s=A.aF(a,i,g).w
+J(a){var s,r,q,p,o,n,m,l,k=this,j=null,i="enterEmail",h=t.l
+A.aF(a,j,h).toString
+s=A.aF(a,j,h).w
 r=A.cc(8)
-q=!(A.aF(a,i,g).w.a.a<650)?A.z(A.Q(i,i,i),1):A.Q(i,i,i)
-p=A.aF(a,i,g).w.a.a<650?1:2
-o=A.cc(20)
-n=A.fo(B.N,1)
-m=$.av()
-m=A.a1(i,new A.o(B.b5,A.a1(i,new A.o(B.R,A.By("assets/images/logo.png"),i),B.j,i,i,new A.aC(B.p,i,i,i,i,i,i,B.a9),i,120,i,i,i,i,120),i),B.j,i,i,new A.aC(m,i,i,new A.co(new A.aM(20,20),new A.aM(20,20),B.I,B.I),i,i,i,B.D),i,i,i,i,i,i,1/0)
-l=t.n
-k=t.p
-l=A.e6(A.a([new A.o(B.Ml,A.aXS(j.at,A.i(a,B.c,l).p(0,h),B.pM,A.i(a,B.c,l).p(0,h),new A.aKQ(),B.He,new A.aKR(a)),i),A.aRc(j.ax,new A.aKS(j),new A.aKT(a)),new A.o(B.pj,A.Q(A.fP(i,A.i(a,B.c,l).p(0,"login"),new A.aKU(j,a)),55,i),i),new A.o(B.MD,A.P(A.a([A.bb(!1,i,!0,A.r(A.i(a,B.c,l).p(0,"forgotPassword"),i,i,i,B.n.aI(B.u),i,i),i,!0,i,i,i,i,i,i,i,i,i,i,new A.aKV(a),i,i,i,i,i),A.P(A.a([A.r(A.i(a,B.c,l).p(0,"noAccount"),i,i,i,B.n,i,i),A.bb(!1,i,!0,A.r(A.i(a,B.c,l).p(0,"signupHere"),i,i,i,B.n.JI(A.X(a).fr,B.G),i,i),i,!0,i,i,i,i,i,i,i,i,i,i,new A.aKW(a),i,i,i,i,i)],k),B.i,B.a6,B.q)],k),B.i,B.ar,B.k),i)],k),i,i,i,!0)
-p=A.z(A.je(i,B.p,A.a1(i,A.wK(!0,A.ae(A.a([m,A.a1(i,new A.o(B.le,A.oq(i,A.ef(B.aR,A.a([l,j.z?new A.dP(B.V,i,i,A.a1(i,new A.jW(i),B.j,i,i,B.IH,i,i,i,i,i,i,i),i):B.ci],k),B.X,B.aK,i),j.d),i),B.j,i,i,new A.aC(B.p,i,i,new A.co(B.I,B.I,new A.aM(20,20),new A.aM(20,20)),i,i,i,B.D),i,i,i,i,i,i,i)],k),B.i,B.cf,B.q),B.au,!0),B.j,i,i,new A.aC(i,i,n,o,i,i,i,B.D),i,i,i,i,i,i,i),i,i,j.as),p)
-return A.Q(A.Ni(B.P,A.P(A.a([q,p,!(A.aF(a,i,g).w.a.a<650)?A.z(A.Q(i,i,i),1):A.Q(i,i,i)],k),B.i,B.h,B.k),B.j,0,B.pj,i,new A.c9(r,B.C),i),i,s.a.a)},
+q=!(A.aF(a,j,h).w.a.a<650)?A.z(A.Q(j,j,j),1):A.Q(j,j,j)
+A.aF(a,j,h).toString
+p=A.cc(20)
+o=A.fo(B.N,1)
+n=$.av()
+n=A.a1(j,new A.o(B.b5,A.a1(j,new A.o(B.R,A.By("assets/images/logo.png"),j),B.j,j,j,new A.aC(B.p,j,j,j,j,j,j,B.a9),j,120,j,j,j,j,120),j),B.j,j,j,new A.aC(n,j,j,new A.co(new A.aM(20,20),new A.aM(20,20),B.I,B.I),j,j,j,B.D),j,j,j,j,j,j,1/0)
+m=t.n
+l=t.p
+m=A.e6(A.a([new A.o(B.Ml,A.aXS(k.at,A.i(a,B.c,m).p(0,i),B.pM,A.i(a,B.c,m).p(0,i),new A.aKQ(),B.He,new A.aKR(a)),j),A.aRc(k.ax,new A.aKS(k),new A.aKT(a)),new A.o(B.pj,A.Q(A.fP(j,A.i(a,B.c,m).p(0,"login"),new A.aKU(k,a)),55,j),j),new A.o(B.MD,A.P(A.a([A.bb(!1,j,!0,A.r(A.i(a,B.c,m).p(0,"forgotPassword"),j,j,j,B.n.aI(B.u),j,j),j,!0,j,j,j,j,j,j,j,j,j,j,new A.aKV(a),j,j,j,j,j),A.P(A.a([A.r(A.i(a,B.c,m).p(0,"noAccount"),j,j,j,B.n,j,j),A.bb(!1,j,!0,A.r(A.i(a,B.c,m).p(0,"signupHere"),j,j,j,B.n.JI(A.X(a).fr,B.G),j,j),j,!0,j,j,j,j,j,j,j,j,j,j,new A.aKW(a),j,j,j,j,j)],l),B.i,B.a6,B.q)],l),B.i,B.ar,B.k),j)],l),j,j,j,!0)
+p=A.z(A.Q(A.je(j,B.p,A.a1(j,A.wK(!0,A.ae(A.a([n,A.a1(j,new A.o(B.le,A.oq(j,A.ef(B.aR,A.a([m,k.z?new A.dP(B.V,j,j,A.a1(j,new A.jW(j),B.j,j,j,B.IH,j,j,j,j,j,j,j),j):B.ci],l),B.X,B.aK,j),k.d),j),B.j,j,j,new A.aC(B.p,j,j,new A.co(B.I,B.I,new A.aM(20,20),new A.aM(20,20)),j,j,j,B.D),j,j,j,j,j,j,j)],l),B.i,B.cf,B.q),B.au,!0),B.j,j,j,new A.aC(j,j,o,p,j,j,j,B.D),j,j,j,j,j,j,j),j,j,k.as),460,j),1)
+return A.Q(A.Ni(B.P,A.P(A.a([q,p,!(A.aF(a,j,h).w.a.a<650)?A.z(A.Q(j,j,j),1):A.Q(j,j,j)],l),B.i,B.h,B.k),B.j,0,B.pj,j,new A.c9(r,B.C),j),j,s.a.a)},
 qz(a,b){A.fa(A.X(a).fr,B.bi,b,B.p,2,B.bd)}}
 A.aKQ.prototype={
 $1(a){},
@@ -103076,7 +103076,7 @@ m=A.P(A.a([new A.o(B.lc,A.a1(n,A.bS(A.r(k,n,B.am,n,B.n.es(B.p,12,B.G),n,n),n,n),
 s=A.cc(6)
 r=this.c
 q=A.cc(6)
-p=A.a1(n,n,B.j,n,n,new A.aC(B.p,A.aQ9(n,new A.mF("http://localhost:3000/uploads/"+A.h(J.aa(B.b.gK(l.f),"name"))),n),n,n,n,n,n,B.a9),n,80,n,n,n,n,80)
+p=A.a1(n,n,B.j,n,n,new A.aC(B.p,A.aQ9(n,new A.mF("https://godatahub.achocd.com/uploads/"+A.h(J.aa(B.b.gK(l.f),"name"))),n),n,n,n,n,n,B.a9),n,80,n,n,n,n,80)
 o=A.Q(n,n,20)
 return A.ae(A.a([m,A.bb(!1,n,!0,new A.o(B.ll,A.a1(n,new A.o(B.li,A.a1(n,new A.o(B.lg,A.P(A.a([p,o,A.z(A.ae(A.a([A.r(l.c,n,B.am,n,B.y.aI(r),n,n),A.r(A.i(a,B.c,t.n).p(0,"type")+": "+k,n,n,n,B.n,n,n)],j),B.v,B.h,B.q),1)],j),B.i,B.h,B.k),n),B.j,n,n,new A.aC(B.fd,n,n,q,B.m8,n,n,B.D),n,120,n,n,n,n,1/0),n),B.j,n,n,new A.aC(r,n,n,s,n,n,n,B.D),n,n,n,n,n,n,n),n),n,!0,n,n,n,n,n,n,n,n,n,n,new A.a95(),n,n,n,n,n)],j),B.i,B.h,B.q)}}
 A.a95.prototype={
@@ -103152,7 +103152,7 @@ j=A.cc(6)
 r=this.d
 q=A.cc(6)
 p=k.e
-p=A.a1(m,m,B.j,m,m,new A.aC(B.p,A.aQ9(m,p.length!==0?new A.mF("http://localhost:3000/uploads/"+A.h(B.b.gK(p))):new A.mF("http://localhost:3000/uploads/profile.png"),m),m,m,m,m,m,B.a9),m,80,m,m,m,m,80)
+p=A.a1(m,m,B.j,m,m,new A.aC(B.p,A.aQ9(m,p.length!==0?new A.mF("https://godatahub.achocd.com/uploads/"+A.h(B.b.gK(p))):new A.mF("https://godatahub.achocd.com/uploads/profile.png"),m),m,m,m,m,m,B.a9),m,80,m,m,m,m,80)
 o=A.Q(m,m,20)
 n=k.b
 return A.ae(A.a([l,A.bb(!1,m,!0,new A.o(B.ll,A.a1(m,new A.o(B.li,A.a1(m,new A.o(B.lg,A.P(A.a([p,o,A.z(A.ae(A.a([A.r(A.h(n),2,B.am,m,B.y.aI(r),m,m),A.r(A.h(k.c)+" "+A.h(k.d),m,m,m,B.n,B.dW,m),A.r("RCCM: "+A.h(k.ch)+"/ "+A.h(k.cx),m,m,m,B.n,B.dW,m),A.r("ID Nat: "+A.h(k.db)+"/ "+A.h(k.dy),m,m,m,B.n,B.dW,m),A.r("Num Impot: "+A.h(k.fx)+"/ "+A.h(k.go),m,m,m,B.n,B.dW,m)],s),B.v,B.h,B.q),1)],s),B.i,B.h,B.k),m),B.j,m,m,new A.aC(B.fd,m,m,q,B.m8,m,m,B.D),m,120,m,m,m,m,1/0),m),B.j,m,m,new A.aC(r,m,m,j,m,m,m,B.D),m,m,m,m,m,m,m),m),m,!0,m,m,m,m,m,m,m,m,m,m,new A.aaW(this,a),m,m,m,m,m)],s),B.i,B.h,B.q)}}
@@ -103371,7 +103371,7 @@ e=A.P(A.a([new A.o(B.lc,A.a1(g,A.bS(A.r(d.d,g,B.am,g,B.n.es(B.p,12,B.G),g,g),g,g
 s=A.cc(6)
 r=this.c
 q=A.cc(6)
-p=A.a1(g,g,B.j,g,g,new A.aC(B.p,A.aQ9(g,new A.mF("http://localhost:3000/uploads/"+A.h(J.aa(B.b.gK(d.y.f),"name"))),g),g,g,g,g,g,B.a9),g,80,g,g,g,g,80)
+p=A.a1(g,g,B.j,g,g,new A.aC(B.p,A.aQ9(g,new A.mF("https://godatahub.achocd.com/uploads/"+A.h(J.aa(B.b.gK(d.y.f),"name"))),g),g,g,g,g,g,B.a9),g,80,g,g,g,g,80)
 o=A.Q(g,g,20)
 n=d.c
 n=A.r(n,g,B.am,g,B.y.aI(r),g,g)
