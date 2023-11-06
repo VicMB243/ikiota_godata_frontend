@@ -68,9 +68,26 @@
   "editProduct": "Edit product",
   "editBank": "Edit bank",
   "addBank": "Add bank",
+  "applyProduct": "Add Application",
+  "applicationEdited": "Application edited successfully!",
+  "successfulAapplication": "Successful Application!",
   "completeBankProfile": "complete Bank Profile",
   "description": "Description ",
   "type": "Type",
+  "newApplication": "New Application",
+  "designation_object": "Designation/ Objet",
+  "financialProduct": "Produit Financier",
+  "projectDocs": "Project",
+  "otherDocs": "Autres documents necessaires pour soutenir votre candidature",
+  "by": "By: ",
+  "coveredBy": "Covered by: ",
+  "flux": "Execution flow",
+  "extract": "Extract",
+  "applicationOject": "Application Object: ",
+  "discardApplicationWarning": "Do you really want to discard this application?",
+  "applicationDeleted": "Application Deleted Successfully",
+  "apply": "Apply",
+
 
 
 

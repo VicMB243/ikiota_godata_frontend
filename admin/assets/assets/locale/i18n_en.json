@@ -192,5 +192,7 @@
 
   "enterValidDate": "Please enter a valid date",
   "validValue": "Please fill in this field",
-  "pleaseFillForm": "Veuillez remplir tous les champs obligatoires avant de continue"
+  "pleaseFillForm": "Veuillez remplir tous les champs obligatoires avant de continue",
+  "successfulValidation": "company validated successfully!",
+  "assigneNote": "Asigner une note financiere"
 }
