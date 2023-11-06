@@ -97540,7 +97540,7 @@ var $async$te=A.C(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:g={}
 p=4
 m=[]
-l=A.eq("http://localhost:3000/applications/update/"+A.i(a.a))
+l=A.eq("https://godatahub.achocd.com/applications/update/"+A.i(a.a))
 k=A.Sm("PATCH",l)
 J.cr(m,new A.a9E(k))
 k.x.p(0,"bodyData",B.w.br(a.fC()))
@@ -97576,7 +97576,7 @@ return A.F($async$te,r)},
 un(){var s=0,r=A.G(t.oH),q,p=2,o,n=this,m,l,k,j,i,h,g,f,e,d,c,b
 var $async$un=A.C(function(a,a0){if(a===1){o=a0
 s=p}while(true)switch(s){case 0:p=4
-m=A.eq("http://localhost:3000/applications")
+m=A.eq("https://godatahub.achocd.com/applications")
 f=t.N
 s=7
 return A.R(A.aR1(m,A.ae(["Content-Type","application/json; charset=UTF-8"],f,f)),$async$un)
@@ -97669,7 +97669,7 @@ var $async$xC=A.C(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:A.ba("============respons "+a.dH().j(0))
 p=4
 A.ba("============response---")
-m=A.eq("http://localhost:3000/admins/login")
+m=A.eq("https://godatahub.achocd.com/admins/login")
 h=t.N
 h=A.ae(["Content-Type","application/json; charset=UTF-8"],h,h)
 s=7
@@ -97719,7 +97719,7 @@ E2(a){return this.awx(a)},
 awx(a){var s=0,r=A.G(t.Ti),q,p=2,o,n,m,l,k,j,i,h
 var $async$E2=A.C(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
-n=A.eq("http://localhost:3000/admins/register")
+n=A.eq("https://godatahub.achocd.com/admins/register")
 j=t.N
 j=A.ae(["Content-Type","application/json; charset=UTF-8"],j,j)
 s=7
@@ -97759,7 +97759,7 @@ return s}},
 yC(){var s=0,r=A.G(t.OS),q,p=2,o,n=this,m,l,k,j,i,h,g,f,e,d,c,b
 var $async$yC=A.C(function(a,a0){if(a===1){o=a0
 s=p}while(true)switch(s){case 0:p=4
-m=A.eq("http://localhost:3000/banks")
+m=A.eq("https://godatahub.achocd.com/banks")
 f=t.N
 s=7
 return A.R(A.aR1(m,A.ae(["Content-Type","application/json; charset=UTF-8"],f,f)),$async$yC)
@@ -97825,7 +97825,7 @@ e=b1.p3.as
 e.toString
 J.uE(m,e)
 l=m
-k=A.eq("http://localhost:3000/companies/register")
+k=A.eq("https://godatahub.achocd.com/companies/register")
 j=A.Sm("POST",k)
 m=l,e=m.length,c=t.zb,b=t.G5,a=t.N,a0=c.i("eJ<1>"),a1=0
 case 7:if(!(a1<m.length)){s=9
@@ -97907,7 +97907,7 @@ B.b.ae(h,new A.abJ(m))
 h=a.p2
 h.toString
 B.b.ae(h,new A.abK(m))
-l=A.eq("http://localhost:3000/companies/update/"+b)
+l=A.eq("https://godatahub.achocd.com/companies/update/"+b)
 k=A.Sm("PATCH",l)
 J.cr(m,new A.abL(k))
 k.x.p(0,"bodyData",B.w.br(a.fC()))
@@ -97943,7 +97943,7 @@ return A.F($async$kO,r)},
 uo(){var s=0,r=A.G(t.MK),q,p=2,o,n=this,m,l,k,j,i,h,g,f,e,d,c,b
 var $async$uo=A.C(function(a,a0){if(a===1){o=a0
 s=p}while(true)switch(s){case 0:p=4
-m=A.eq("http://localhost:3000/companies")
+m=A.eq("https://godatahub.achocd.com/companies")
 f=t.N
 s=7
 return A.R(A.aR1(m,A.ae(["Content-Type","application/json; charset=UTF-8"],f,f)),$async$uo)
@@ -98038,7 +98038,7 @@ aos(a){var s=0,r=A.G(t.vF),q,p=2,o,n=this,m,l,k,j,i,h,g,f,e,d
 var $async$w4=A.C(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:e={}
 p=4
-m=A.eq("http://localhost:3000/products/add")
+m=A.eq("https://godatahub.achocd.com/products/add")
 l=A.Sm("POST",m)
 l.x.p(0,"bodyData",B.w.br(a.dH()))
 s=7
@@ -98082,7 +98082,7 @@ var $async$tf=A.C(function(a7,a8){if(a7===1){o=a8
 s=p}while(true)switch(s){case 0:a3={}
 a4=null
 p=4
-m=A.eq("http://localhost:3000/products/update/"+A.i(a6.a))
+m=A.eq("https://godatahub.achocd.com/products/update/"+A.i(a6.a))
 l=A.Sm("PATCH",m)
 s=a4!=null?7:8
 break
@@ -98136,7 +98136,7 @@ return A.F($async$tf,r)},
 qq(){var s=0,r=A.G(t._R),q,p=2,o,n=this,m,l,k,j,i,h,g,f,e,d,c,b,a
 var $async$qq=A.C(function(a0,a1){if(a0===1){o=a1
 s=p}while(true)switch(s){case 0:p=4
-m=A.eq("http://localhost:3000/products")
+m=A.eq("https://godatahub.achocd.com/products")
 f=t.N
 s=7
 return A.R(A.aR1(m,A.ae(["Content-Type","application/json; charset=UTF-8"],f,f)),$async$qq)
@@ -105126,7 +105126,7 @@ m=A.O(A.a([new A.o(B.lj,A.a1(n,A.bP(A.q(k,n,B.ao,n,B.m.dq(B.o,12,B.E),n,n),n,n),
 s=A.c4(6)
 r=this.c
 q=A.c4(6)
-p=A.a1(n,n,B.j,n,n,new A.aw(B.o,A.aSz(n,new A.n1("http://localhost:3000/uploads/"+A.i(J.a8(B.b.gK(l.f),"name"))),n),n,n,n,n,n,B.a1),n,80,n,n,n,n,80)
+p=A.a1(n,n,B.j,n,n,new A.aw(B.o,A.aSz(n,new A.n1("https://godatahub.achocd.com/uploads/"+A.i(J.a8(B.b.gK(l.f),"name"))),n),n,n,n,n,n,B.a1),n,80,n,n,n,n,80)
 o=A.P(n,n,20)
 return A.ab(A.a([m,A.b6(!1,n,!0,new A.o(B.lq,A.a1(n,new A.o(B.ln,A.a1(n,new A.o(B.ll,A.O(A.a([p,o,A.y(A.ab(A.a([A.q(l.c,n,B.ao,n,B.y.aF(r),n,n),A.q(A.h(a,B.c,t.n).n(0,"type")+": "+k,n,n,n,B.m,n,n)],j),B.v,B.h,B.p),1)],j),B.i,B.h,B.k,n),n),B.j,n,n,new A.aw(B.fk,n,n,q,B.me,n,n,B.D),n,120,n,n,n,n,1/0),n),B.j,n,n,new A.aw(r,n,n,s,n,n,n,B.D),n,n,n,n,n,n,n),n),n,!0,n,n,n,n,n,n,n,n,n,n,n,n,n,new A.a9Z(),n,n,n,n,n,n,n)],j),B.i,B.h,B.p)}}
 A.a9Z.prototype={
@@ -105200,7 +105200,7 @@ s=A.c4(6)
 r=this.d
 q=A.c4(6)
 p=k.e
-p=A.a1(m,m,B.j,m,m,new A.aw(B.o,A.aSz(m,p.length!==0?new A.n1("http://localhost:3000/uploads/"+A.i(B.b.gK(p))):new A.n1("http://localhost:3000/uploads/profile.png"),m),m,m,m,m,m,B.a1),m,80,m,m,m,m,80)
+p=A.a1(m,m,B.j,m,m,new A.aw(B.o,A.aSz(m,p.length!==0?new A.n1("https://godatahub.achocd.com/uploads/"+A.i(B.b.gK(p))):new A.n1("https://godatahub.achocd.com/uploads/profile.png"),m),m,m,m,m,m,B.a1),m,80,m,m,m,m,80)
 o=A.P(m,m,20)
 n=k.b
 return A.ab(A.a([l,A.b6(!1,m,!0,new A.o(B.lq,A.a1(m,new A.o(B.ln,A.a1(m,new A.o(B.ll,A.O(A.a([p,o,A.y(A.ab(A.a([A.q(A.i(n),2,B.ao,m,B.y.aF(r),m,m),A.q(A.i(k.c)+" "+A.i(k.d),m,m,m,B.m,B.e_,m),A.q("RCCM: "+A.i(k.ch)+"/ "+A.i(k.cx),m,m,m,B.m,B.e_,m),A.q("ID Nat: "+A.i(k.db)+"/ "+A.i(k.dy),m,m,m,B.m,B.e_,m),A.q("Num Impot: "+A.i(k.fx)+"/ "+A.i(k.go),m,m,m,B.m,B.e_,m)],j),B.v,B.h,B.p),1)],j),B.i,B.h,B.k,m),m),B.j,m,m,new A.aw(B.fk,m,m,q,B.me,m,m,B.D),m,120,m,m,m,m,1/0),m),B.j,m,m,new A.aw(r,m,m,s,m,m,m,B.D),m,m,m,m,m,m,m),m),m,!0,m,m,m,m,m,m,m,m,m,m,m,m,m,new A.abP(this,a),m,m,m,m,m,m,m)],j),B.i,B.h,B.p)}}
@@ -105420,7 +105420,7 @@ e=A.O(A.a([new A.o(B.lj,A.a1(g,A.bP(A.q(d.d,g,B.ao,g,B.m.dq(B.o,12,B.E),g,g),g,g
 s=A.c4(6)
 r=this.c
 q=A.c4(6)
-p=A.a1(g,g,B.j,g,g,new A.aw(B.o,A.aSz(g,new A.n1("http://localhost:3000/uploads/"+A.i(J.a8(B.b.gK(d.y.f),"name"))),g),g,g,g,g,g,B.a1),g,80,g,g,g,g,80)
+p=A.a1(g,g,B.j,g,g,new A.aw(B.o,A.aSz(g,new A.n1("https://godatahub.achocd.com/uploads/"+A.i(J.a8(B.b.gK(d.y.f),"name"))),g),g,g,g,g,g,B.a1),g,80,g,g,g,g,80)
 o=A.P(g,g,20)
 n=d.c
 n=A.q(n,g,B.ao,g,B.y.aF(r),g,g)
