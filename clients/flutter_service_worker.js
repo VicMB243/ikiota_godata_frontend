@@ -3,11 +3,12 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "70cb30db780f5fd6e012ad34c9b2d76c",
-"assets/AssetManifest.json": "0ba2013039450efb47f8a0176332e8ac",
+const RESOURCES = {"assets/AssetManifest.bin": "c0ff5c176060679c17436546ac6169cd",
+"assets/AssetManifest.json": "16b1288b1eda3e429de34704ada2f9be",
 "assets/assets/fonts/Righteous-Regular.ttf": "77fa00996ecb4104c7880b8749c7c4e0",
 "assets/assets/fonts/Tw-Cen-MT.ttf": "9b62dc86f936227b3f7b367bd0b6c05e",
 "assets/assets/images/checking_shopping_list.png": "f324bd5d0e6e8bdd43a2b099ec712846",
+"assets/assets/images/document.png": "e99be836db5366f94faa1ba68223cb19",
 "assets/assets/images/finance.png": "a0ef986d6926b329bee7d60c18cdd621",
 "assets/assets/images/image.png": "bc5f3cb173fb7c392d4de08d11ee4c32",
 "assets/assets/images/insititution_financiere.png": "d0ab7887d2f7be145e6fe841b1f44252",
@@ -15,11 +16,11 @@ const RESOURCES = {"assets/AssetManifest.bin": "70cb30db780f5fd6e012ad34c9b2d76c
 "assets/assets/images/logo_horizontal.png": "4c4150efa035350d07349c81516fb360",
 "assets/assets/images/particulier.png": "28be23bcffa45dc2750b4c4d0cff926e",
 "assets/assets/images/pme.png": "6817754c8e3d418e639d4f225606e697",
-"assets/assets/locale/i18n_en.json": "42747d9afb378405fe54bff7903cd020",
-"assets/assets/locale/i18n_fr.json": "6ef050e94cd31af8ecca851cdc7782e6",
+"assets/assets/locale/i18n_en.json": "132adef854166242f65e6260cd6710c1",
+"assets/assets/locale/i18n_fr.json": "5300eba83298b47b622ad93b615ff7d7",
 "assets/assets/lotties/failure.json": "8fa1a4192917f0636534f90a150338d5",
 "assets/FontManifest.json": "fcf007fa59d5f658ebe9cca10a6b7743",
-"assets/fonts/MaterialIcons-Regular.otf": "5e4556cdea8b5b54a3064d4ca528f3db",
+"assets/fonts/MaterialIcons-Regular.otf": "16b78f0688151551afd72727e1266153",
 "assets/NOTICES": "2883fac41fa5a8baddf61be43339fb61",
 "assets/packages/country_code_picker/flags/ad.png": "796914c894c19b68adf1a85057378dbc",
 "assets/packages/country_code_picker/flags/ae.png": "045eddd7da0ef9fb3a7593d7d2262659",
@@ -364,9 +365,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "70cb30db780f5fd6e012ad34c9b2d76c
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "0dc9ef726497c9eb72760c2206f0ac9b",
-"/": "0dc9ef726497c9eb72760c2206f0ac9b",
-"main.dart.js": "29cb63401f0a02d7b070ee5c93578647",
+"index.html": "27cafbd0e599eab64f6c7a945ad1192e",
+"/": "27cafbd0e599eab64f6c7a945ad1192e",
+"main.dart.js": "c1e1f565e935104d75cc418b4ad7b44a",
 "manifest.json": "b1c95d674b95485075b963257d139958",
 "version.json": "a72a94be5a1289da4e448d6b08207475"};
 // The application shell files that are downloaded before a service worker can
