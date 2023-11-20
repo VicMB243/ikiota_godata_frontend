@@ -99,6 +99,13 @@
   "unavailableDocument": "Ce fichier n'existe pas sur le serveur!",
   "nature": "Nature",
   "referenceBanquaires": "References Banquaires: ",
+  "activitésSousTraitées": "Activités sous-traitées:",
+  "anneeAquisition": "Année d'aquisition",
+  "etat": "Etat",
+  "detailsFaillite": "Details Faillite:",
+  "profile": "Profile",
+  "dashboard": "Dashboard",
+  "applications": "Applications",
 
 
 
@@ -133,6 +140,7 @@
   "number": "Numéro",
   "place": "Lieu",
   "date": "Date",
+  "object": "Objet",
   "joindreRccm": "Joindre une copie du RCCM",
   "identificationNationale": "Numéro d’identification nationale",
   "joindreIdNat": "Joindre une copie de l’identification nationale",

@@ -101,6 +101,16 @@
   "VALIDATED": "Validated",
   "nature": "Nature",
   "referenceBanquaires": "References Banquaires: ",
+  "activitésSousTraitées": "Activités sous-traitées:",
+  "anneeAquisition": "Année d'aquisition",
+  "etat": "Etat",
+  "detailsFaillite": "Details Faillite:",
+  "detailsPoursuiteJudiciaires": "Details Poursuites Judiciaires: ",
+  "detailsAntecedentFiscale": "Details Antecedent avec l'administration Fiscale: ",
+  "profile": "Profile",
+  "dashboard": "Dashboard",
+  "applications": "Applications",
+
 
 
 
@@ -135,6 +145,7 @@
   "number": "Numéro",
   "place": "Lieu",
   "date": "Date",
+  "object": "Object",
   "joindreRccm": "Joindre une copie du RCCM",
   "identificationNationale": "Numéro d’identification nationale",
   "joindreIdNat": "Joindre une copie de l’identification nationale",
