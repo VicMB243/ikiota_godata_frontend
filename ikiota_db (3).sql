@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 27, 2023 at 09:53 AM
+-- Generation Time: Nov 27, 2023 at 10:48 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -75,7 +75,9 @@ INSERT INTO `applications` (`id`, `object`, `product`, `company`, `amount`, `pro
 (3, 'rtergvgsdgs', '6', '375', '{\"currency\":\"USD\",\"value\":5454}', '[]', '[]', 'fdsfsdfsdf', 'pending', '2023-11-06 09:23:35'),
 (4, 'dsfsf', '5', '375', '{\"currency\":\"USD\",\"value\":434}', '[]', '[]', 'fsdgdgdsgdg', 'pending', '2023-11-06 09:28:20'),
 (5, 'dfdfd', '2', '375', '{\"currency\":\"USD\",\"value\":3434}', '[]', '[]', 'sdfsfs', 'pending', '2023-11-06 09:32:13'),
-(6, 'efrafafda', '3', '375', '{\"currency\":\"USD\",\"value\":242}', '[]', '[]', 'sdasfdsadsa', 'pending', '2023-11-06 15:03:07');
+(6, 'efrafafda', '3', '375', '{\"currency\":\"USD\",\"value\":242}', '[]', '[]', 'sdasfdsadsa', 'pending', '2023-11-06 15:03:07'),
+(7, 'Achat machine', '56', '375', '{\"currency\":\"USD\",\"value\":5000}', '[]', '[]', NULL, 'pending', '2023-11-27 14:09:44'),
+(8, 'Achat machine', '59', '375', '{\"currency\":\"USD\",\"value\":1000}', '[]', '[]', NULL, 'pending', '2023-11-27 22:07:33');
 
 -- --------------------------------------------------------
 
@@ -107,7 +109,8 @@ INSERT INTO `banks` (`id`, `name`, `type`, `creator`, `logo`, `description`, `st
 (9, 'bank 133', 'Banque', '81', 'favicon-250x250.png', '', 'active', '2023-10-30 13:57:00'),
 (10, 'Bank243', 'Banque', '83', 'MUHINDO MUHESI GILBERT cv new.docx', '', 'active', '2023-10-31 13:44:14'),
 (11, 'Bank254', 'Banque', '84', 'favicon-250x250.png', '', 'active', '2023-10-31 13:46:40'),
-(12, 'Top Bank 133', 'Banque', '81', '3188255.png', '', 'active', '2023-11-13 13:59:46');
+(12, 'Top Bank 133', 'Banque', '81', '3188255.png', '', 'active', '2023-11-13 13:59:46'),
+(13, 'BQ Bank', 'Banque', '85', 'economic.png', '', 'active', '2023-11-27 13:40:00');
 
 -- --------------------------------------------------------
 
@@ -190,6 +193,20 @@ INSERT INTO `companies` (`id`, `category`, `raisonSociale`, `sigle`, `formeJurid
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `funds`
+--
+
+CREATE TABLE `funds` (
+  `id` int(11) NOT NULL,
+  `name` varchar(55) DEFAULT NULL,
+  `value` varchar(55) DEFAULT NULL,
+  `status` varchar(55) DEFAULT NULL,
+  `dateCreated` datetime DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `products`
 --
 
@@ -224,7 +241,11 @@ INSERT INTO `products` (`id`, `name`, `type`, `sector`, `valueMin`, `valueMax`, 
 (7, 'Bingwa', 'Micro Assurance', 'Fintech', '{\"value\": 1000,\"currency\": \"USD\"}', '{\"value\": 30000,\"currency\": \"USD\"}', '36 Mois', 'Requise', '\"rawbank.png\"', '2', 'FOGEC', 'valid', '', '2023-09-22 09:44:32'),
 (8, 'Bingwa', 'Micro Assurance', 'Agritech', '{\"value\": 1000,\"currency\": \"USD\"}', '{\"value\": 30000,\"currency\": \"USD\"}', '36 Mois', 'Requise', '\"rawbank.png\"', '2', 'FOGEC', 'valid', '', '2023-09-22 09:44:32'),
 (54, 'winners 133', 'Investissement', 'All', '{\"currency\":\"USD\",\"value\":2323}', '{\"currency\":\"USD\",\"value\":232323}', '23Mois', 'Non requise', NULL, '9', 'ikiota', 'active', '', '2023-10-30 13:57:56'),
-(55, 'My fav Product', 'Investissement', 'All', '{\"currency\":\"USD\",\"value\":2000}', '{\"currency\":\"USD\",\"value\":20000}', '34Mois', 'Non requise', NULL, '9', 'Ikiota', 'active', 'description3', '2023-11-19 18:20:06');
+(55, 'My fav Product', 'Investissement', 'All', '{\"currency\":\"USD\",\"value\":2000}', '{\"currency\":\"USD\",\"value\":20000}', '34Mois', 'Non requise', NULL, '9', 'Ikiota', 'active', 'description3', '2023-11-19 18:20:06'),
+(56, 'Best', 'Pret', 'All', '{\"currency\":\"USD\",\"value\":1000}', '{\"currency\":\"USD\",\"value\":10000}', '24 MOIS', 'Non requise', NULL, '13', '', 'active', '', '2023-11-27 14:08:24'),
+(57, 'Best2', 'Pret', 'All', '{\"currency\":\"USD\",\"value\":1000}', '{\"currency\":\"USD\",\"value\":10000}', '24 MOIS', 'Non requise', NULL, '13', '2', 'active', '', '2023-11-27 17:32:35'),
+(58, 'Best3', 'Pret', 'All', '{\"currency\":\"USD\",\"value\":1000}', '{\"currency\":\"USD\",\"value\":10000}', '24 MOIS', 'Non requise', NULL, '13', '2', 'active', '', '2023-11-27 17:57:40'),
+(59, 'best243', 'Pret', 'All', '{\"currency\":\"USD\",\"value\":1000}', '{\"currency\":\"USD\",\"value\":10000}', '24 MOIS', 'Non requise', NULL, '9', '', 'active', '', '2023-11-27 21:43:06');
 
 -- --------------------------------------------------------
 
@@ -281,7 +302,8 @@ INSERT INTO `users` (`id`, `name`, `email`, `phone`, `profile`, `password`, `com
 (81, '', 'bank133@gmail.com', '', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', NULL, 'Institution Financiere/ Banque', NULL, 'active', '2023-10-30 13:55:20.298'),
 (82, '', 'virungaent1@gmail.com', '', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', NULL, 'PME & Cooperative', NULL, 'active', '2023-10-30 14:13:38.105'),
 (83, '', 'bank243@gmail.com', '', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', NULL, 'Institution Financiere/ Banque', NULL, 'active', '2023-10-31 13:38:00.663'),
-(84, '', 'bank254@gmail.com', '', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', NULL, 'Institution Financiere/ Banque', NULL, 'active', '2023-10-31 13:45:06.020');
+(84, '', 'bank254@gmail.com', '', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', NULL, 'Institution Financiere/ Banque', NULL, 'active', '2023-10-31 13:45:06.020'),
+(85, '', 'bq@gmail.com', '', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', NULL, 'Institution Financiere/ Banque', NULL, 'active', '2023-11-27 13:29:39.474');
 
 --
 -- Indexes for dumped tables
@@ -312,6 +334,12 @@ ALTER TABLE `companies`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `funds`
+--
+ALTER TABLE `funds`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `products`
 --
 ALTER TABLE `products`
@@ -337,13 +365,13 @@ ALTER TABLE `admins`
 -- AUTO_INCREMENT for table `applications`
 --
 ALTER TABLE `applications`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `banks`
 --
 ALTER TABLE `banks`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT for table `companies`
@@ -352,16 +380,22 @@ ALTER TABLE `companies`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=411;
 
 --
+-- AUTO_INCREMENT for table `funds`
+--
+ALTER TABLE `funds`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=56;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=60;
 
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=85;
+  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=86;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
