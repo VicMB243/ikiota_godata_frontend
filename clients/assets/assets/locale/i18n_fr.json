@@ -22,7 +22,7 @@
   "alreadyRegistered": "Déjà enregistré?",
   "signinHere": "Connectez-vous içi",
   "signup": "Enregistrement",
-  "login": "Connéxion",
+  "login": "Connexion",
   "welcome": "Bienvenue!",
   "continue": "Continuer",
   "finish": "Terminer",
@@ -109,7 +109,11 @@
   "applications": "Applications",
   "addLogo": "Veuillez selection un logo",
   "refresh": "Mettre à Jour",
-
+  "interestRate": "Taux d'intéret",
+  "percents": "Pourcents",
+  "newWorkspace": "Ajouter workspace",
+  "workspaceDescription": "Pas de workspace pret à etre implementé, veuillez réessayer ulterieurement!",
+  "tools": "Outils",
 
 
 
