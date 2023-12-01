@@ -28595,7 +28595,7 @@ a9m:function a9m(){},
 fD:function fD(a,b){this.a=a
 this.b=b},
 aTI(a,b,c){var s
-if(a!=="http://localhost:3000/uploads/"){s=window
+if(a!=="https://godatahub.achocd.com/uploads/"){s=window
 s.toString
 B.HY.avO(s,a,b)}else A.eT(null,new A.aTK(),c,null,!0,t.z)},
 aTK:function aTK(){},
@@ -97790,7 +97790,7 @@ s=p}while(true)switch(s){case 0:a8={}
 p=4
 m=[]
 A.aM("application.toJson()--------"+b0.eO().j(0))
-l=A.ek("http://localhost:3000/applications/add")
+l=A.ek("https://godatahub.achocd.com/applications/add")
 k=A.wC("POST",l)
 f=m,e=f.length,d=t.zb,c=t.G5,b=t.N,a=d.i("eb<1>"),a0=0
 case 7:if(!(a0<f.length)){s=9
@@ -97850,7 +97850,7 @@ var $async$pE=A.D(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:g={}
 p=4
 m=[]
-l=A.ek("http://localhost:3000/applications/update/"+A.i(a.a))
+l=A.ek("https://godatahub.achocd.com/applications/update/"+A.i(a.a))
 k=A.wC("PATCH",l)
 J.cl(m,new A.a9X(k))
 k.x.p(0,"bodyData",B.v.bH(a.eO()))
@@ -97886,7 +97886,7 @@ return A.H($async$pE,r)},
 os(){var s=0,r=A.I(t.oH),q,p=2,o,n=this,m,l,k,j,i,h,g,f,e,d,c,b
 var $async$os=A.D(function(a,a0){if(a===1){o=a0
 s=p}while(true)switch(s){case 0:p=4
-m=A.ek("http://localhost:3000/applications")
+m=A.ek("https://godatahub.achocd.com/applications")
 f=t.N
 s=7
 return A.S(A.aTY(m,A.ae(["Content-Type","application/json; charset=UTF-8"],f,f)),$async$os)
@@ -98005,7 +98005,7 @@ var $async$xD=A.D(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:A.aM("============loginuser "+a.eq().j(0))
 p=4
 A.aM("============loginuser---")
-m=A.ek("http://localhost:3000/users/login")
+m=A.ek("https://godatahub.achocd.com/users/login")
 h=t.N
 h=A.ae(["Content-Type","application/json; charset=UTF-8"],h,h)
 s=7
@@ -98055,7 +98055,7 @@ E2(a){return this.awC(a)},
 awC(a){var s=0,r=A.I(t.Ti),q,p=2,o,n,m,l,k,j,i,h
 var $async$E2=A.D(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
-n=A.ek("http://localhost:3000/users/register")
+n=A.ek("https://godatahub.achocd.com/users/register")
 j=t.N
 j=A.ae(["Content-Type","application/json; charset=UTF-8"],j,j)
 s=7
@@ -98094,7 +98094,7 @@ p=4
 e=t.z
 m=A.X(b1.f,!0,e)
 l=m
-k=A.ek("http://localhost:3000/banks/add")
+k=A.ek("https://godatahub.achocd.com/banks/add")
 j=A.wC("POST",k)
 A.aM("=====imageFile--- "+J.b9(l))
 m=l,d=m.length,c=t.zb,b=t.G5,a=t.N,a0=c.i("eb<1>"),a1=0
@@ -98153,7 +98153,7 @@ return A.H($async$rB,r)},
 uo(){var s=0,r=A.I(t.OS),q,p=2,o,n=this,m,l,k,j,i,h,g,f,e,d,c,b
 var $async$uo=A.D(function(a,a0){if(a===1){o=a0
 s=p}while(true)switch(s){case 0:p=4
-m=A.ek("http://localhost:3000/banks")
+m=A.ek("https://godatahub.achocd.com/banks")
 f=t.N
 s=7
 return A.S(A.aTY(m,A.ae(["Content-Type","application/json; charset=UTF-8"],f,f)),$async$uo)
@@ -98222,7 +98222,7 @@ d.toString
 J.hW(m,d)
 l=m
 A.aM("==========registerCompany 1111")
-k=A.ek("http://localhost:3000/companies/register")
+k=A.ek("https://godatahub.achocd.com/companies/register")
 A.aM("==========registerCompany 222")
 j=A.wC("POST",k)
 A.aM("==========registerCompany 333")
@@ -98319,7 +98319,7 @@ B.b.af(m,new A.ac3(l))
 m=a.p3
 m.toString
 B.b.af(m,new A.ac4(l))
-k=A.ek("http://localhost:3000/companies/update/"+b)
+k=A.ek("https://godatahub.achocd.com/companies/update/"+b)
 j=A.wC("PATCH",k)
 J.cl(l,new A.ac5(j))
 j.x.p(0,"bodyData",B.v.bH(a.eO()))
@@ -98357,7 +98357,7 @@ ot(){var s=0,r=A.I(t.MK),q,p=2,o,n=this,m,l,k,j,i,h,g,f,e,d,c,b
 var $async$ot=A.D(function(a,a0){if(a===1){o=a0
 s=p}while(true)switch(s){case 0:A.aM("---------mCompanyProfile --------")
 p=4
-m=A.ek("http://localhost:3000/companies")
+m=A.ek("https://godatahub.achocd.com/companies")
 f=t.N
 s=7
 return A.S(A.aTY(m,A.ae(["Content-Type","application/json; charset=UTF-8"],f,f)),$async$ot)
@@ -98491,7 +98491,7 @@ aoq(a){var s=0,r=A.I(t.vF),q,p=2,o,n=this,m,l,k,j,i,h,g,f,e,d
 var $async$w3=A.D(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:e={}
 p=4
-m=A.ek("http://localhost:3000/products/add")
+m=A.ek("https://godatahub.achocd.com/products/add")
 l=A.wC("POST",m)
 l.x.p(0,"bodyData",B.v.bH(a.eq()))
 s=7
@@ -98535,7 +98535,7 @@ var $async$th=A.D(function(a9,b0){if(a9===1){o=b0
 s=p}while(true)switch(s){case 0:a5={}
 a6=null
 p=4
-m=A.ek("http://localhost:3000/products/update/"+A.i(a8.a))
+m=A.ek("https://godatahub.achocd.com/products/update/"+A.i(a8.a))
 l=A.wC("PATCH",m)
 s=a6!=null?7:8
 break
@@ -98593,7 +98593,7 @@ return A.H($async$th,r)},
 lV(){var s=0,r=A.I(t._R),q,p=2,o,n=this,m,l,k,j,i,h,g,f,e,d,c,b
 var $async$lV=A.D(function(a,a0){if(a===1){o=a0
 s=p}while(true)switch(s){case 0:p=4
-m=A.ek("http://localhost:3000/products")
+m=A.ek("https://godatahub.achocd.com/products")
 f=t.N
 s=7
 return A.S(A.aTY(m,A.ae(["Content-Type","application/json; charset=UTF-8"],f,f)),$async$lV)
@@ -106856,7 +106856,7 @@ s=A.c3(6)
 r=this.d
 q=A.c3(6)
 p=g.f
-p=A.W(i,i,B.j,i,i,new A.ar(B.m,A.adT(i,p.length!==0?new A.lI("http://localhost:3000/uploads/"+A.i(B.b.gK(p)),1,i):new A.lI("http://localhost:3000/uploads/profile.png",1,i),i),i,i,i,i,i,B.M),i,86,i,i,i,i,86)
+p=A.W(i,i,B.j,i,i,new A.ar(B.m,A.adT(i,p.length!==0?new A.lI("https://godatahub.achocd.com/uploads/"+A.i(B.b.gK(p)),1,i):new A.lI("https://godatahub.achocd.com/uploads/profile.png",1,i),i),i,i,i,i,i,B.M),i,86,i,i,i,i,86)
 o=A.t(i,i,20)
 n=g.b
 p=A.K(A.a([p,o,A.u(A.a8(A.a([A.q(A.i(n),2,B.aj,i,B.t.aH(r),i,i),A.q(A.i(g.d)+" "+A.i(g.e),i,i,i,B.p.c9(12),B.cW,i),A.q("RCCM: "+A.i(g.CW)+"/ "+A.i(g.cy),i,i,i,B.p.c9(10),B.cW,i),A.q("ID Nat: "+A.i(g.dx)+"/ "+A.i(g.fr),i,i,i,B.p.c9(10),B.cW,i),A.q("Num Impot: "+A.i(g.fy)+"/ "+A.i(g.id),i,i,i,B.p.c9(10),B.cW,i)],f),B.y,B.f,B.o),1)],f),B.h,B.f,B.k,i)
@@ -107061,19 +107061,19 @@ s=A.q("",o,B.aj,o,B.cX.aH(B.u),o,o)
 r=p.a.c
 if(B.b.ga5(A.bt(r,'"',"").split(".")).toUpperCase()==="PDF")r=A.rR("assets/images/document.png")
 else{r=p.a.c
-r=r===""?A.rR("assets/images/image.png"):new A.w6(A.b2_(o,o,new A.lI("http://localhost:3000/uploads/"+r,1,o)),o)}q=t.p
+r=r===""?A.rR("assets/images/image.png"):new A.w6(A.b2_(o,o,new A.lI("https://godatahub.achocd.com/uploads/"+r,1,o)),o)}q=t.p
 return A.aJ(!1,o,!0,A.W(o,new A.m(B.Nw,new A.m(B.pw,A.dP(B.R,A.a([A.a8(A.a([s,new A.m(B.af,A.t(r,50,o),o),A.K(A.a([A.u(A.q("Doc: "+A.i(B.b.gK(p.a.c.split("."))),o,B.aj,o,B.cX.aH(B.u),o,o),1),A.q("."+A.i(B.b.ga5(p.a.c.split("."))),o,B.br,o,B.cX.aH(B.u),o,o)],q),B.h,B.a_,B.k,o)],q),B.h,B.f,B.o),A.W(o,A.bk(new A.m(B.af,A.aJ(!1,o,!0,A.q(A.d(a,B.c,t.n).l(0,"view"),o,o,o,B.t,o,o),o,!0,o,o,o,o,o,o,o,o,o,o,o,o,o,new A.aIi(p,a),o,o,o,o,o,o,o),o),o,o),B.j,B.a4,o,o,o,o,o,o,o,o,1/0)],q),B.S,B.av,o),o),o),B.j,o,o,new A.ar(B.ek,o,o,n,o,o,o,B.C),o,o,o,o,o,o,140),o,!0,o,o,o,o,o,o,o,o,o,o,o,o,o,new A.aIj(p,a),o,o,o,o,o,o,o)}}
 A.aIi.prototype={
 $0(){var s=this.a.a.c
-A.aTI("http://localhost:3000/uploads/"+s,s,this.b)},
+A.aTI("https://godatahub.achocd.com/uploads/"+s,s,this.b)},
 $S:0}
 A.aIj.prototype={
 $0(){var s=this.a.a.c
-A.aTI("http://localhost:3000/uploads/"+s,s,this.b)},
+A.aTI("https://godatahub.achocd.com/uploads/"+s,s,this.b)},
 $S:0}
 A.pa.prototype={
 H(a){var s,r,q,p,o,n,m=null,l="dd-MM-yyyy",k=A.ab(204,255,255,255),j=t.w,i=A.z(a,m,j).w.a.a<700?8:20,h=A.z(a,m,j).w.a.a<700?70:120,g=A.z(a,m,j).w.a.a<700?70:120,f=this.c,e=f.f,d=e.length
-if(d!==0)e=A.aZX(B.m,new A.lI("http://localhost:3000/uploads/"+A.i(J.a1(B.b.gK(e),"name")),1,m),m,m)
+if(d!==0)e=A.aZX(B.m,new A.lI("https://godatahub.achocd.com/uploads/"+A.i(J.a1(B.b.gK(e),"name")),1,m),m,m)
 else{e=A.z(a,m,j).w.a.a<700?4:8
 e=A.W(m,new A.m(new A.R(e,e,e,e),A.aT(B.Og,B.J,m,A.z(a,m,j).w.a.a<700?60:80),m),B.j,m,m,new A.ar(B.F,m,m,m,m,m,m,B.M),m,m,m,m,m,m,m)}h=A.t(e,g,h)
 g=A.z(a,m,j).w.a.a<700?A.b06(A.q(A.i(f.d)+" "+A.i(f.e),m,m,m,B.p.rW(B.K),m,m)):A.t(m,m,m)
@@ -107154,7 +107154,7 @@ e=A.K(A.a([new A.m(B.pm,A.W(g,A.bk(A.q(c.d,g,B.aj,g,B.p.df(B.m,12,B.K),g,g),g,g)
 s=A.c3(6)
 r=d.c
 q=A.c3(6)
-p=A.W(g,g,B.j,g,g,new A.ar(B.m,A.adT(g,new A.lI("http://localhost:3000/uploads/"+A.i(J.a1(B.b.gK(a1.mX(c.z).f),"name")),1,g),g),g,g,g,g,g,B.M),g,80,g,g,g,g,80)
+p=A.W(g,g,B.j,g,g,new A.ar(B.m,A.adT(g,new A.lI("https://godatahub.achocd.com/uploads/"+A.i(J.a1(B.b.gK(a1.mX(c.z).f),"name")),1,g),g),g,g,g,g,g,B.M),g,80,g,g,g,g,80)
 o=A.t(g,g,A.z(a,g,t.w).w.a.a<700?10:20)
 n=c.c
 n=A.q(n,g,B.aj,g,B.t.aH(r),g,g)
