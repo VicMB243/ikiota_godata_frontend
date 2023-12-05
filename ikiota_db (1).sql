@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 30, 2023 at 08:37 PM
+-- Generation Time: Dec 05, 2023 at 10:04 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -71,7 +71,7 @@ CREATE TABLE `applications` (
 
 INSERT INTO `applications` (`id`, `object`, `product`, `company`, `amount`, `project`, `otherDocs`, `description`, `status`, `dateCreated`) VALUES
 (1, 'sdsds', '54', '', '{\"currency\":\"USD\",\"value\":22}', '[]', '[]', 'sddsdsd', 'pending', '2023-11-02 19:36:12'),
-(2, 'gdgdgdg', '8', '375', '{\"currency\":\"USD\",\"value\":5454}', '[]', '[]', 'dfhhdhdhdh', 'pending', '2023-11-06 09:21:44'),
+(2, 'gdgdgdg', '8', '375', '{\"currency\":\"USD\",\"value\":5454}', '[]', '[]', 'dfhhdhdhdh', 'pending', '2023-11-06 07:21:44'),
 (3, 'rtergvgsdgs', '6', '375', '{\"currency\":\"USD\",\"value\":5454}', '[]', '[]', 'fdsfsdfsdf', 'pending', '2023-11-06 09:23:35'),
 (4, 'dsfsf', '5', '375', '{\"currency\":\"USD\",\"value\":434}', '[]', '[]', 'fsdgdgdsgdg', 'pending', '2023-11-06 09:28:20'),
 (5, 'dfdfd', '2', '375', '{\"currency\":\"USD\",\"value\":3434}', '[]', '[]', 'sdfsfs', 'pending', '2023-11-06 09:32:13'),
@@ -186,9 +186,9 @@ INSERT INTO `companies` (`id`, `category`, `raisonSociale`, `sigle`, `formeJurid
 (372, 'Cooperative', 'Company 5', 'RCCF', 'SARL', '[]', '[\"simplicity.png\"]', '2023-10-10 04:48:55', NULL, '2023-10-10 04:48:55', '[\"\"]', '', '', '{\"objets\":null,\"montant\":0,\"devise\":\"USD\",\"dateReception\":null}', '[]', '[\"\"]', '[]', '', '2023-10-10 04:48:55', '', '[\"\"]', '', '2023-10-10 04:48:55', '', '[\"\"]', '', '[\"\"]', '2023-10-10 04:48:55', '', '[\"\"]', '', 'Locataire', '', 'Locataire', '{\"telephoneFixe\":\"\",\"telephoneMobile\":\"\",\"fax\":\"\",\"boitePostale\":\"\",\"email\":\"\",\"website\":\"\"}', '[]', '{\"noms\":\"\",\"nationalite\":\"\",\"etatCivil\":\"\",\"nomsConjoint\":\"\",\"qualiteJuridique\":\"\",\"fonction\":\"\",\"taches\":\"\",\"address\":\"\",\"natureJuridiqueDomicile\":\"Locataire\",\"contacts\":\"{\\\"telephoneFixe\\\":\\\"\\\",\\\"telephoneMobile\\\":\\\"\\\",\\\"fax\\\":\\\"\\\",\\\"boitePostale\\\":\\\"\\\",\\\"email\\\":\\\"\\\",\\\"website\\\":\\\"\\\"}\",\"formations\":\"\",\"dateEngagement\":\"2023-10-10T12:48:55.673\",\"cvDocument\":\"[\\\"\\\"]\"}', '[]', '', '', 'fdsfsfds', '[]', 'fdsfsdfs', '[\"quick.png\"]', '[{\"objets\":null,\"montant\":null,\"encours\":null,\"dateReception\":\"2023-10-10T12:54:23.442\",\"contrats\":\"[\\\"\\\"]\"}]', '', '', '', '', 'Accepted', NULL, NULL, NULL),
 (373, 'Cooperative', 'Company 6', 'ARCC', 'SARL', NULL, '[\"economic.png\"]', '2023-10-10 07:11:33', NULL, '2023-10-10 07:11:33', '[\"\"]', '', '', '{\"objets\":null,\"montant\":0,\"devise\":\"USD\",\"dateReception\":null}', '[]', '[\"\"]', '[]', '', '2023-10-10 07:11:33', '', '[\"\"]', '', '2023-10-10 07:11:33', '', '[\"\"]', '', '[\"\"]', '2023-10-10 07:11:33', '', '[\"\"]', '', 'Locataire', '', 'Locataire', '{\"telephoneFixe\":\"\",\"telephoneMobile\":\"\",\"fax\":\"\",\"boitePostale\":\"\",\"email\":\"\",\"website\":\"\"}', '[]', '{\"noms\":\"\",\"nationalite\":\"\",\"etatCivil\":\"\",\"nomsConjoint\":\"\",\"qualiteJuridique\":\"\",\"fonction\":\"\",\"taches\":\"\",\"address\":\"\",\"natureJuridiqueDomicile\":\"Locataire\",\"contacts\":\"{\\\"telephoneFixe\\\":\\\"\\\",\\\"telephoneMobile\\\":\\\"\\\",\\\"fax\\\":\\\"\\\",\\\"boitePostale\\\":\\\"\\\",\\\"email\\\":\\\"\\\",\\\"website\\\":\\\"\\\"}\",\"formations\":\"\",\"dateEngagement\":\"2023-10-10T13:11:33.154\",\"cvDocument\":\"[\\\"\\\"]\"}', '[{\"designation\":\"Terrain(s)\",\"anneeAquisition\":\"\",\"valeurEstimee\":\"3343\",\"etat\":\"\",\"facture\":\"[\\\"insititution_financiere.png\\\"]\"}]', '[{\"designation\":\"gfgfg\",\"quantite\":0,\"dateValorisation\":\"2023-10-10T13:18:32.485\",\"valeurEstimee\":\"34343\",\"etat\":\"\"}]', '[\"ererdgdgdg\",\"dgdgdgdg\",\"gdgdgdgdg\"]', 'dgdgdgdg', '[{\"noms\":\"fdsfsfds\",\"nationalite\":\"\",\"etatCivil\":\"\",\"nomsConjoint\":\"\",\"qualiteJuridique\":\"\",\"fonction\":\"rwrwrww\",\"taches\":\"wrwrw\",\"address\":\"\",\"natureJuridiqueDomicile\":\"\",\"contacts\":\"{\\\"telephoneFixe\\\":\\\"\\\",\\\"telephoneMobile\\\":\\\"\\\",\\\"fax\\\":\\\"\\\",\\\"boitePostale\\\":\\\"\\\",\\\"email\\\":\\\"\\\",\\\"website\\\":\\\"\\\"}\",\"formations\":\"\",\"dateEngagement\":\"2023-10-10T00:00:00.000\",\"cvDocument\":\"[\\\"preview-1-392.webp\\\"]\"}]', '', '[\"simplicity.png\"]', '[{\"objets\":\"dsdsdsd\",\"montant\":\"55566\",\"encours\":\"78886\",\"dateReception\":\"2023-10-10T00:00:00.000\",\"contrats\":\"[\\\"satisfied-customer.png\\\"]\"},{\"objets\":\"545tgre\",\"montant\":\"45366\",\"encours\":\"65757\",\"dateReception\":\"2023-10-10T00:00:00.000\",\"contrats\":\"[\\\"simplicity.png\\\"]\"}]', 'gdgdgdfgdgd', 'dffdgdfgd', 'vfdgdfgd', '', NULL, NULL, NULL, NULL),
 (374, 'Cooperative', 'ikiota inc', 'IKIOTA', 'SARL', NULL, '[\"insititution_financiere.png\"]', '2023-10-10 14:42:32', NULL, '2023-10-10 14:42:32', '[]', '', '', '{\"objets\":null,\"montant\":null,\"devise\":\"USD\",\"dateReception\":null}', '', '[]', '', '', '2023-10-10 14:42:32', '', '[]', '', '2023-10-10 14:42:32', '', '[]', '', '\"\"', '2023-10-10 14:42:32', '', '[]', '', 'Locataire', '', 'Locataire', '{\"telephoneFixe\":\"\",\"telephoneMobile\":\"\",\"fax\":\"\",\"boitePostale\":\"\",\"email\":\"\",\"website\":\"\"}', '[]', '{\"noms\":\"\",\"nationalite\":\"\",\"etatCivil\":\"\",\"nomsConjoint\":\"\",\"qualiteJuridique\":\"\",\"fonction\":\"\",\"taches\":\"\",\"address\":\"\",\"natureJuridiqueDomicile\":\"Locataire\",\"contacts\":\"{\\\"telephoneFixe\\\":\\\"\\\",\\\"telephoneMobile\\\":\\\"\\\",\\\"fax\\\":\\\"\\\",\\\"boitePostale\\\":\\\"\\\",\\\"email\\\":\\\"\\\",\\\"website\\\":\\\"\\\"}\",\"formations\":\"\",\"dateEngagement\":\"2023-10-10T14:42:32.372\",\"cvDocument\":\"[]\"}', '', '', '', '', '', '', '\"\"', '', '', '', '', '', NULL, NULL, NULL, NULL),
-(375, 'Pme', 'Kivu eat', 'kivu eat', 'SARL', '[\"quick.png\"]', '[\"\"]', '2023-10-14 19:52:02', NULL, '2023-10-14 19:52:02', '[\"\"]', '', '', '{\"objets\":null,\"montant\":null,\"devise\":\"USD\",\"dateReception\":null}', '[]', '[]', '[]', '', '2023-10-14 19:52:02', '', '[]', '', '2023-10-14 19:52:02', '', '[]', '', '[\"\"]', '2023-10-14 19:52:02', '', '[\"\"]', '', 'Locataire', '', 'Locataire', '{\"telephoneFixe\":\"\",\"telephoneMobile\":\"\",\"fax\":\"\",\"boitePostale\":\"\",\"email\":\"\",\"website\":\"\"}', '[]', '{\"noms\":\"\",\"nationalite\":\"\",\"etatCivil\":\"\",\"nomsConjoint\":\"\",\"qualiteJuridique\":\"\",\"fonction\":\"\",\"taches\":\"\",\"address\":\"\",\"natureJuridiqueDomicile\":\"Locataire\",\"contacts\":\"{\\\"telephoneFixe\\\":\\\"\\\",\\\"telephoneMobile\\\":\\\"\\\",\\\"fax\\\":\\\"\\\",\\\"boitePostale\\\":\\\"\\\",\\\"email\\\":\\\"\\\",\\\"website\\\":\\\"\\\"}\",\"formations\":\"\",\"dateEngagement\":\"2023-11-26T22:35:21.280\",\"cvDocument\":\"[]\"}', '[{\"designation\":\"Terrain(s)\",\"anneeAquisition\":\"\",\"valeurEstimee\":\"5665\",\"etat\":\"\",\"facture\":\"[\\\"d653bcea66990492e4b1e93213120185.jpg\\\"]\"}]', '[{\"designation\":\"dssdfgff\",\"quantite\":5566,\"dateValorisation\":\"2023-11-20T10:16:56.163\",\"valeurEstimee\":\"67787\",\"etat\":\"\"}]', '[\"\",\"\",\"\"]', '', '[]', '', '[\"\"]', '[]', '', '', '', '1', 'Pending', '50', '50', '50'),
+(375, 'Pme', 'Kivu eat', 'kivu eat', 'SARL', '[]', '[\"\"]', '2023-10-14 15:52:02', '2023-12-01 09:31:18', '2023-10-14 15:52:02', '[\"\"]', 'hhhh', 'ttttt', '{\"objets\":null,\"montant\":null,\"devise\":\"USD\",\"dateReception\":null}', '[]', '[]', '[]', '223233', '2023-10-14 15:52:02', 'Goma', '[]', '63535', '2023-10-14 15:52:02', 'Goma', '[]', '232323', '[\"\"]', '2023-10-14 15:52:02', 'Goma', '[\"\"]', 'goma, kyeshero', 'Locataire', 'goma', 'Locataire', '{\"telephoneFixe\":\"\",\"telephoneMobile\":\"\",\"fax\":\"\",\"boitePostale\":\"\",\"email\":\"\",\"website\":\"\"}', '[]', '{\"noms\":\"\",\"nationalite\":\"\",\"etatCivil\":\"\",\"nomsConjoint\":\"\",\"qualiteJuridique\":\"\",\"fonction\":\"\",\"taches\":\"\",\"address\":\"\",\"natureJuridiqueDomicile\":\"Locataire\",\"contacts\":\"{\\\"telephoneFixe\\\":\\\"\\\",\\\"telephoneMobile\\\":\\\"\\\",\\\"fax\\\":\\\"\\\",\\\"boitePostale\\\":\\\"\\\",\\\"email\\\":\\\"\\\",\\\"website\\\":\\\"\\\"}\",\"formations\":\"\",\"dateEngagement\":\"2023-12-03T14:28:51.374\",\"cvDocument\":\"[]\"}', '[{\"designation\":\"Terrain(s)\",\"anneeAquisition\":\"\",\"valeurEstimee\":\"5665\",\"etat\":\"\",\"facture\":\"[\\\"d653bcea66990492e4b1e93213120185.jpg\\\"]\"}]', '[{\"designation\":\"dssdfgff\",\"quantite\":5566,\"dateValorisation\":\"2023-11-20T10:16:56.163\",\"valeurEstimee\":\"67787\",\"etat\":\"\"}]', '[\"\",\"\",\"\"]', '', '[]', '', '[\"\"]', '[]', '', '', '', '1', 'Pending', '50', '50', '50'),
 (376, 'Pme', 'kivu kuku company', 'kivu kuku', 'SARL', NULL, '[\"about-left-image.png\"]', '2023-10-15 11:55:32', NULL, '2023-10-15 11:55:32', '[]', '', '', '{\"objets\":null,\"montant\":null,\"devise\":\"USD\",\"dateReception\":null}', '[]', '[]', '', '', '2023-10-15 11:55:32', '', '[]', '', '2023-10-15 11:55:32', '', '[]', '', '\"\"', '2023-10-15 11:55:32', '', '[]', '', 'Locataire', '', 'Locataire', '{\"telephoneFixe\":\"\",\"telephoneMobile\":\"\",\"fax\":\"\",\"boitePostale\":\"\",\"email\":\"\",\"website\":\"\"}', '[]', '{\"noms\":\"\",\"nationalite\":\"\",\"etatCivil\":\"\",\"nomsConjoint\":\"\",\"qualiteJuridique\":\"\",\"fonction\":\"\",\"taches\":\"\",\"address\":\"\",\"natureJuridiqueDomicile\":\"Locataire\",\"contacts\":\"{\\\"telephoneFixe\\\":\\\"\\\",\\\"telephoneMobile\\\":\\\"\\\",\\\"fax\\\":\\\"\\\",\\\"boitePostale\\\":\\\"\\\",\\\"email\\\":\\\"\\\",\\\"website\\\":\\\"\\\"}\",\"formations\":\"\",\"dateEngagement\":\"2023-10-15T11:55:32.495\",\"cvDocument\":\"[]\"}', '', '', '', '', '', '', '\"\"', '', '', '', '', '1', NULL, NULL, NULL, NULL),
-(410, 'Pme', 'Kivu corps', 'kicop', '', '[\"quick.png\"]', '[\"Main Application_ 230614 NAT_A - Nature Positive Business Models for Sustainable & Resilient Transformat (2).pdf\"]', '2023-11-19 16:33:30', '2023-11-26 00:00:00', '2023-11-26 00:00:00', '[\"\"]', '', '', '{\"objets\":null,\"montant\":null,\"devise\":\"USD\",\"dateReception\":null}', '[]', '[]', '', '', '2023-11-19 16:33:30', '', '[]', '', '2023-11-19 16:33:30', '', '[]', '', '[\"\"]', '2023-11-19 16:33:30', '', '[\"\"]', '', 'Locataire', '', 'Locataire', '{\"telephoneFixe\":\"\",\"telephoneMobile\":\"\",\"fax\":\"\",\"boitePostale\":\"\",\"email\":\"\",\"website\":\"\"}', '[]', '{\"noms\":\"\",\"nationalite\":\"\",\"etatCivil\":\"\",\"nomsConjoint\":\"\",\"qualiteJuridique\":\"\",\"fonction\":\"\",\"taches\":\"\",\"address\":\"\",\"natureJuridiqueDomicile\":\"Locataire\",\"contacts\":\"{\\\"telephoneFixe\\\":\\\"\\\",\\\"telephoneMobile\\\":\\\"\\\",\\\"fax\\\":\\\"\\\",\\\"boitePostale\\\":\\\"\\\",\\\"email\\\":\\\"\\\",\\\"website\\\":\\\"\\\"}\",\"formations\":\"\",\"dateEngagement\":\"2023-11-26T23:37:35.234\",\"cvDocument\":\"[]\"}', '[]', '[]', '[]', '', '[]', '', '[\"\"]', '[]', '', '', '', '56', 'Pending', '50', '50', '50');
+(424, 'PME', 'kivu corps', 'kico', 'SARL', '[\"download (1).png\"]', '[\"\"]', '2023-12-02 23:36:43', '2023-12-02 23:36:43', '2023-12-02 23:36:43', '[\"Main Application_ 230614 NAT_A - Nature Positive Business Models for Sustainable & Resilient Transformat (2).pdf\"]', '', '', '{\"objets\":null,\"montant\":null,\"devise\":\"USD\",\"dateReception\":null}', '[]', '[\"Main Application_ 230614 NAT_A - Nature Positive Business Models for Sustainable & Resilient Transformat (2).pdf\"]', '', '', '2023-12-02 23:36:43', '', '[\"\"]', '', '2023-12-02 23:36:43', '', '[\"\"]', '', '[\"\"]', '2023-12-02 23:36:43', '', '[\"Main Application_ 230614 NAT_A - Nature Positive Business Models for Sustainable & Resilient Transformat (2).pdf\"]', '', 'Locataire', '', 'Locataire', '{\"telephoneFixe\":\"\",\"telephoneMobile\":\"\",\"fax\":\"\",\"boitePostale\":\"\",\"email\":\"\",\"website\":\"\"}', '[]', '{\"noms\":\"\",\"nationalite\":\"\",\"etatCivil\":\"\",\"nomsConjoint\":\"\",\"qualiteJuridique\":\"\",\"fonction\":\"\",\"taches\":\"\",\"address\":\"\",\"natureJuridiqueDomicile\":\"Locataire\",\"contacts\":\"{\\\"telephoneFixe\\\":\\\"\\\",\\\"telephoneMobile\\\":\\\"\\\",\\\"fax\\\":\\\"\\\",\\\"boitePostale\\\":\\\"\\\",\\\"email\\\":\\\"\\\",\\\"website\\\":\\\"\\\"}\",\"formations\":\"\",\"dateEngagement\":\"2023-12-04T10:46:07.407\",\"cvDocument\":\"[]\"}', '[]', '[]', '[]', '', '[]', '', '[\"\"]', '[]', '', '', '', '86', 'Pending', '50', '50', '50');
 
 -- --------------------------------------------------------
 
@@ -217,7 +217,7 @@ CREATE TABLE `products` (
   `sector` varchar(100) DEFAULT NULL,
   `valueMin` text NOT NULL,
   `valueMax` text NOT NULL,
-  `interestRate` varchar(10) DEFAULT NULL,
+  `interestRate` varchar(55) DEFAULT NULL,
   `maturity` varchar(55) NOT NULL,
   `warranty` varchar(55) NOT NULL,
   `logo` text DEFAULT NULL,
@@ -233,15 +233,18 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`id`, `name`, `type`, `sector`, `valueMin`, `valueMax`, `interestRate`, `maturity`, `warranty`, `logo`, `provider`, `cover`, `status`, `description`, `dateCreated`) VALUES
-(1, 'Credit Kijana Inuka', 'Pret', 'Agriculture & Elevage', '{\"value\": 1000,\"currency\": \"USD\"}', '{\"value\": 30000,\"currency\": \"USD\"}', NULL, '36 Mois', 'Requise', '\"smico.png\"', '3', 'FOGEC', 'valid', '', '2023-09-22 09:44:32'),
-(2, 'Shujaa', 'Pret', 'Agrotransformation', '{\"value\": 1000,\"currency\": \"USD\"}', '{\"value\": 30000,\"currency\": \"USD\"}', NULL, '36 Mois', 'Requise', '\"equity.png\"', '1', 'FOGEC', 'valid', '', '2023-09-22 09:44:32'),
-(3, 'Credit Kijana Inuka', 'Pret', 'Agrotransformation', '{\"value\": 1000,\"currency\": \"USD\"}', '{\"value\": 30000,\"currency\": \"USD\"}', NULL, '36 Mois', 'Requise', '\"smico.png\"', '3', 'FOGEC', 'valid', '', '2023-09-22 09:44:32'),
-(4, 'Shujaa', 'Pret', 'Mines', '{\"value\": 1000,\"currency\": \"USD\"}', '{\"value\": 30000,\"currency\": \"USD\"}', NULL, '36 Mois', 'Requise', '\"equity.png\"', '1', 'FOGEC', 'valid', '', '2023-09-22 09:44:32'),
-(5, 'Shujaa', 'Leasing', 'Mines', '{\"value\": 1000,\"currency\": \"USD\"}', '{\"value\": 30000,\"currency\": \"USD\"}', NULL, '36 Mois', 'Requise', '\"equity.png\"', '1', 'FOGEC', 'valid', '', '2023-09-22 09:44:32'),
-(6, 'Credit Kijana Inuka', 'Leasing', 'Fintech', '{\"value\": 1000,\"currency\": \"USD\"}', '{\"value\": 30000,\"currency\": \"USD\"}', NULL, '36 Mois', 'Requise', '\"smico.png\"', '3', 'FOGEC', 'valid', '', '2023-09-22 09:44:32'),
-(7, 'Bingwa', 'Micro Assurance', 'Fintech', '{\"value\": 1000,\"currency\": \"USD\"}', '{\"value\": 30000,\"currency\": \"USD\"}', NULL, '36 Mois', 'Requise', '\"rawbank.png\"', '2', 'FOGEC', 'valid', '', '2023-09-22 09:44:32'),
-(8, 'Bingwa', 'Micro Assurance', 'Agritech', '{\"value\": 1000,\"currency\": \"USD\"}', '{\"value\": 30000,\"currency\": \"USD\"}', NULL, '36 Mois', 'Requise', '\"rawbank.png\"', '2', 'FOGEC', 'valid', '', '2023-09-22 09:44:32'),
-(54, 'winners 133', 'Investissement', 'All', '{\"currency\":\"USD\",\"value\":2323}', '{\"currency\":\"USD\",\"value\":232323}', NULL, '23Mois', 'Non requise', NULL, '9', 'ikiota', 'active', '', '2023-10-30 13:57:56');
+(1, 'Credit Kijana Inuka', 'Pret', 'Agriculture & Elevage', '{\"value\": 1000,\"currency\": \"USD\"}', '{\"value\": 30000,\"currency\": \"USD\"}', NULL, '{}', 'Requise', '\"smico.png\"', '3', 'FOGEC', 'valid', '', '2023-09-22 09:44:32'),
+(2, 'Shujaa', 'Pret', 'Agrotransformation', '{\"value\": 1000,\"currency\": \"USD\"}', '{\"value\": 30000,\"currency\": \"USD\"}', NULL, '{}', 'Requise', '\"equity.png\"', '1', 'FOGEC', 'valid', '', '2023-09-22 09:44:32'),
+(3, 'Credit Kijana Inuka', 'Pret', 'Agrotransformation', '{\"value\": 1000,\"currency\": \"USD\"}', '{\"value\": 30000,\"currency\": \"USD\"}', NULL, '{}', 'Requise', '\"smico.png\"', '3', 'FOGEC', 'valid', '', '2023-09-22 09:44:32'),
+(4, 'Shujaa', 'Pret', 'Mines', '{\"value\": 1000,\"currency\": \"USD\"}', '{\"value\": 30000,\"currency\": \"USD\"}', NULL, '{}', 'Requise', '\"equity.png\"', '1', 'FOGEC', 'valid', '', '2023-09-22 09:44:32'),
+(5, 'Shujaa', 'Leasing', 'Mines', '{\"value\": 1000,\"currency\": \"USD\"}', '{\"value\": 30000,\"currency\": \"USD\"}', NULL, '{}', 'Requise', '\"equity.png\"', '1', 'FOGEC', 'valid', '', '2023-09-22 09:44:32'),
+(6, 'Credit Kijana Inuka', 'Leasing', 'Fintech', '{\"value\": 1000,\"currency\": \"USD\"}', '{\"value\": 30000,\"currency\": \"USD\"}', NULL, '{}', 'Requise', '\"smico.png\"', '3', 'FOGEC', 'valid', '', '2023-09-22 09:44:32'),
+(7, 'Bingwa', 'Micro Assurance', 'Fintech', '{\"value\": 1000,\"currency\": \"USD\"}', '{\"value\": 30000,\"currency\": \"USD\"}', NULL, '{}', 'Requise', '\"rawbank.png\"', '2', 'FOGEC', 'valid', '', '2023-09-22 09:44:32'),
+(8, 'Bingwa', 'Micro Assurance', 'Agritech', '{\"value\": 1000,\"currency\": \"USD\"}', '{\"value\": 30000,\"currency\": \"USD\"}', NULL, '{}', 'Requise', '\"rawbank.png\"', '2', 'FOGEC', 'valid', '', '2023-09-22 09:44:32'),
+(54, 'winners 133', 'Investissement', 'All', '{\"currency\":\"USD\",\"value\":2323}', '{\"currency\":\"USD\",\"value\":232323}', NULL, '{}', 'Non requise', NULL, '9', 'ikiota', 'active', '', '2023-10-30 13:57:56'),
+(68, 'top shujaa', 'Pret', 'All', '{\"currency\":\"USD\",\"value\":1000}', '{\"currency\":\"USD\",\"value\":200000}', '{\"min\":\"1\",\"max\":\"2\"}', '{}', 'Non requise', NULL, '9', '', 'active', '', '2023-12-05 21:22:24'),
+(69, 'the bests ', 'Pret', 'All', '{\"currency\":\"USD\",\"value\":1000}', '{\"currency\":\"USD\",\"value\":100000}', '{\"min\":\"2\",\"max\":\"\"}', '{}', 'Non requise', NULL, '9', '', 'active', '', '2023-12-05 21:34:25'),
+(70, 'maendeleo', 'Pret', 'All', '{\"currency\":\"USD\",\"value\":1000}', '{\"currency\":\"USD\",\"value\":10000}', '{\"min\":\"1\",\"max\":\"2\"}', '{\"min\":\"24 MOIS\",\"max\":\"24 \"}', 'Non requise', NULL, '9', '', 'active', '', '2023-12-05 22:14:08');
 
 -- --------------------------------------------------------
 
@@ -299,7 +302,9 @@ INSERT INTO `users` (`id`, `name`, `email`, `phone`, `profile`, `password`, `com
 (82, '', 'virungaent1@gmail.com', '', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', NULL, 'PME & Cooperative', NULL, 'active', '2023-10-30 14:13:38.105'),
 (83, '', 'bank243@gmail.com', '', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', NULL, 'Institution Financiere/ Banque', NULL, 'active', '2023-10-31 13:38:00.663'),
 (84, '', 'bank254@gmail.com', '', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', NULL, 'Institution Financiere/ Banque', NULL, 'active', '2023-10-31 13:45:06.020'),
-(85, '', 'bq@gmail.com', '', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', NULL, 'Institution Financiere/ Banque', NULL, 'active', '2023-11-27 13:29:39.474');
+(85, '', 'bq@gmail.com', '', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', NULL, 'Institution Financiere/ Banque', NULL, 'active', '2023-11-27 13:29:39.474'),
+(86, '', 'vicbiloko3@gmail.com', '', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', NULL, 'PME & Cooperative', NULL, 'active', '2023-12-01 11:52:26.381'),
+(87, '', 'abcbank@gmail.com', '', '', '$5$sjshdhdhdnhucncx$xn8sqLW/XDYW.jwVICgWHbT8Z95SPnuv0/c6HmOfFm3', NULL, 'Institution Financiere/ Banque', NULL, 'active', '2023-12-04 14:23:53.419');
 
 --
 -- Indexes for dumped tables
@@ -373,7 +378,7 @@ ALTER TABLE `banks`
 -- AUTO_INCREMENT for table `companies`
 --
 ALTER TABLE `companies`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=411;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=425;
 
 --
 -- AUTO_INCREMENT for table `funds`
@@ -385,13 +390,13 @@ ALTER TABLE `funds`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=67;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=71;
 
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=86;
+  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=88;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
