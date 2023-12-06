@@ -120,6 +120,8 @@
   "newWorkspace": "Ajouter workspace",
   "workspaceDescription": "Pas de workspace pret à etre implementé, veuillez réessayer ulterieurement!",
   "tools": "Outils",
+  "accountPendingActivation": "Votre compte a été créé avec succès et est en attente d'activation pour continuer!\nNos equipes examinent votre profile et nous vous notifierons dès que votre compte sera activé.\nPour plus des details concernant cette activité, veuillez nous contacter sur admin@kiotadata.com",
+
 
 
 

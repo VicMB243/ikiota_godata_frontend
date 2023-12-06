@@ -106712,7 +106712,9 @@ s.ae()}},
 $S:0}
 A.aKe.prototype={
 $3(a,b,c){var s,r,q,p,o,n,m,l,k=null,j=b.gc6().e,i=J.W($.bI[1],"type")
-if(j==null?i==null:j===i)j=A.r(k,k,k)
+if(j==null?i!=null:j!==i){j=this.a.a
+j=j==null||j===""}else j=!0
+if(j)j=A.r(k,k,k)
 else{j=t.w
 i=A.u(a,k,j).w.a.a>=1300?25:20
 s=this.a
