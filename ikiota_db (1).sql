@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 05, 2023 at 10:04 PM
+-- Generation Time: Dec 06, 2023 at 12:09 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -244,7 +244,8 @@ INSERT INTO `products` (`id`, `name`, `type`, `sector`, `valueMin`, `valueMax`, 
 (54, 'winners 133', 'Investissement', 'All', '{\"currency\":\"USD\",\"value\":2323}', '{\"currency\":\"USD\",\"value\":232323}', NULL, '{}', 'Non requise', NULL, '9', 'ikiota', 'active', '', '2023-10-30 13:57:56'),
 (68, 'top shujaa', 'Pret', 'All', '{\"currency\":\"USD\",\"value\":1000}', '{\"currency\":\"USD\",\"value\":200000}', '{\"min\":\"1\",\"max\":\"2\"}', '{}', 'Non requise', NULL, '9', '', 'active', '', '2023-12-05 21:22:24'),
 (69, 'the bests ', 'Pret', 'All', '{\"currency\":\"USD\",\"value\":1000}', '{\"currency\":\"USD\",\"value\":100000}', '{\"min\":\"2\",\"max\":\"\"}', '{}', 'Non requise', NULL, '9', '', 'active', '', '2023-12-05 21:34:25'),
-(70, 'maendeleo', 'Pret', 'All', '{\"currency\":\"USD\",\"value\":1000}', '{\"currency\":\"USD\",\"value\":10000}', '{\"min\":\"1\",\"max\":\"2\"}', '{\"min\":\"24 MOIS\",\"max\":\"24 \"}', 'Non requise', NULL, '9', '', 'active', '', '2023-12-05 22:14:08');
+(70, 'maendeleo', 'Pret', 'All', '{\"currency\":\"USD\",\"value\":1000}', '{\"currency\":\"USD\",\"value\":10000}', '{\"min\":\"1\",\"max\":\"2\"}', '{\"min\":\"1 Annee\",\"max\":\"2 Ans\"}', 'Non requise', NULL, '9', '', 'active', '', '2023-12-05 22:14:08'),
+(71, 'Maendeleo yetu', 'Pret', 'All', '{\"currency\":\"USD\",\"value\":1000}', '{\"currency\":\"USD\",\"value\":10000}', '{\"min\":\"1\",\"max\":\"5\"}', '{\"min\":\"1 Année\",\"max\":\"25 Ans\"}', 'Non requise', NULL, '9', '2', 'active', 'fdsgdsfdsgfshfdsjgfgfjyfhbdfgds,fhdsjfdsjgfhdddgfffndhfdngdhfddfljfaf,f.ssjfkfdfdbsmsfbsjfsfkvmdsjfsjhfsjfssf', '2023-12-06 12:42:31');
 
 -- --------------------------------------------------------
 
@@ -390,7 +391,7 @@ ALTER TABLE `funds`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=71;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=72;
 
 --
 -- AUTO_INCREMENT for table `users`
