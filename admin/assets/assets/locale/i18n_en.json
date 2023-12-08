@@ -82,6 +82,11 @@
   "empreinteCarbone": "Carbone Footprint",
   "noteFinanciere": "Financial Rating",
   "view": "View",
+  "activate": "Activate",
+  "suspend": "Suspend",
+  "status": "Status",
+  "refresh": "Refresh",
+  "editBankStatusMessage": "Do you really want to change this bank's status to ",
 
 
 

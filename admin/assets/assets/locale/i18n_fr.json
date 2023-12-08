@@ -194,7 +194,7 @@
   "applyProduct": "Ajouter une Application",
   "applicationEdited": "Application modifié avec succès!",
   "successfulAapplication": "Application reussi!",
-  "completeBankProfile": "completer le profi;le de la banque Banque",
+  "completeBankProfile": "completer le profile de la banque Banque",
   "description": "Description ",
   "type": "Type",
   "newApplication": "Nouvelle Application",
@@ -213,5 +213,10 @@
   "coteCredit": "cote Crédit",
   "empreinteCarbone": "Empreinte Carbone",
   "noteFinanciere": "Note Financière",
-  "view": "Voir"
+  "view": "Voir",
+  "activate": "Activer",
+  "suspend": "Suspendre",
+  "status": "Status",
+  "refresh": "Mettre à Jour",
+  "editBankStatusMessage": "Voulez-vous vraiment changer l'etat de visibilité de cette banque à "
 }
